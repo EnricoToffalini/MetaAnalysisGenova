@@ -1,11 +1,27 @@
 ---
-title: "Current teaching: META-ANALYSIS IN R"
+title: "META-ANALYSIS IN R"
 subtitle: "July 8, 2024"
 ---
 
 ---------------------------------------------------
 
 This webpage is a collection of resources (links, slides, data, and R code) for the one-day seminar on 'Meta-analysis in R' conducted by Enrico Toffalini on July 8, 2024, for PhD students in Social Sciences at the University of Genova.
+
+Questions that will be addressed: 
+
+- What is a "meta-analysis"?
+
+- What is the difference between a meta-analysis and a systematic review? (and what "standard" do you have to follow when doing a "systematic review with meta-analysis"?)
+
+- What are effect sizes and how do you interpret them? (real-life examples of standardized vs unstandardized effect sizes?)
+
+- What is "heterogeneity" of effect sizes in a meta-analysis?
+
+- Why might a meta-analysis present a "multilevel" structure?
+
+- What is a "moderator" in a meta-analysis? (examples? when are moderators important and how do you assess them?)
+
+- What is a "publication bias" and why is it an issue in meta-analysis?
 
 ---------------------------------------------------
 
