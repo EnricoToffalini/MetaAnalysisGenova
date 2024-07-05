@@ -1,0 +1,201 @@
+---
+title: "Understanding heterogeneity in meta-analysis"
+author: "Enrico Toffalini"
+format: 
+  html:
+    embed-resources: true
+css: styles.css
+include-before:
+  - "<img src='Figures/psicostat_logo.png' style='width:75px; height:auto; display:block;margin:0 auto 20px;' alt='Logo'>"
+---
+
+```{r, echo=F, cache=T, message=F, warning=F}
+
+# initial setup
+rm(list=ls())
+library(ggplot2)
+library(metafor)
+library(psych)
+library(MASS)
+set.seed(21)
+simulateStudy = function(n = 100, true_r = .20){
+  x = mvrnorm(n=n, mu=c(0,0), Sigma=matrix(c(1,true_r,true_r,1),2,2),empirical=F)
+  return(cor(x[,1],x[,2]))
+}
+```
+
+--------------------------------------------------------------------
+
+## Effect sizes may differ across studies
+
+Let's consider the following case. The three effect sizes look different. 
+
+Why may they differ? 
+
+Let's say they are SMDs between cases and controls, or measures of treatment efficacy. 
+
+```{r, echo=F, cache=T, message=F, warning=F}
+eff = c(0.7,0.15,0.25)
+vi = c(.0004,.002,.003)
+fit = rma(eff,vi)
+par(mar=c(5,0,0,0))
+forest(fit,addfit=F,xlab="Cohen's d",header=T)
+```
+
+--------------------------------------------------------------------
+
+## Equal-Effects (or "Fixed effects") models
+
+If we disregard possible heterogeneity across effects and assume that all studies reflect the same true underlying effect, with variations only being due to sampling error, we get the following estimates.
+
+Would you trust them?
+
+```{r, cache=T, message=F, warning=F}
+fit = rma(eff, vi, method="EE")
+
+forest(fit, xlab="Cohen's d", header=T)
+```
+
+- The point estimate (center of the diamond) is outside the confidence interval of any of the 3 effect sizes involved in the analysis.
+
+- The point estimate seems "overconfident" (the width of the diamond is very narrow): what would happen if +1 study were added?
+
+- Although the Study 1 effect has the highest precision, the other two are more consistent with each other, so Study 1 seems to have too much leverage on the meta-analytic result.
+
+- As shown below from the model summary, the test for heterogeneity is statistically significant, and the I^2 suggests that most variability is actually due to heterogeneity (rather than to sampling error). 
+
+```{r, cache=T, message=F, warning=F}
+summary(fit)
+```
+
+--------------------------------------------------------------------
+
+## Random-Effects models
+
+Now, here is a more plausible estimate, simply obtained adopting a "random-effects models" (which is default in metafor):
+
+```{r, echo=F, cache=T, message=F, warning=F}
+fit = rma(eff, vi)
+
+forest(fit, xlab="Cohen's d", header=T)
+```
+
+--------------------------------------------------------------------
+
+## Equal- and Random-Effects models are almost identical if there is no true heterogeneity
+
+In this case, there is no true heterogeneity in effect size. If we fit the model with Equal or Random effects, it is virtually the same.
+
+```{r, echo=F, cache=T, message=F, warning=F}
+# set parameters and simulate
+k = 15
+true_r = 0.20
+min_n = 15
+max_n = 600
+df = data.frame(true_r = rep(.20, k), n = round(runif(k, min_n, max_n)), r = NA, z = NA, vi = NA)
+df1 = df
+for(i in 1:nrow(df1)){
+  df1$r[i] = simulateStudy(n=df1$n[i], true_r=df1$true_r[i])
+  df1$z[i] = fisherz(df1$r[i])
+  df1$vi[i] = 1/(df1$n[i]-3)
+}
+df2 = df1
+df2$n = df2$n * 10
+for(i in 1:nrow(df2)){
+  df2$vi[i] = 1/(df2$n[i]-3)
+}
+```
+
+- In the first case, we fit the model with random effects (as per default):
+
+```{r, cache=T, message=F, warning=F}
+fit1 = rma(yi=z, vi=vi, data=df1)
+par(mar=c(5,0,0,0))
+forest(fit1, xlim=c(-0.3,0.85), xlab="Pearson's r", transf=fisherz2r, at=seq(-0.2,.6,.1), header=T)
+summary(fit1)
+```
+
+- In the second case, we fit it with equal effects... results are virtually the same (not exactly the same because, by accident, some very small heterogeneity was estimated, although it is immaterial):
+
+```{r, cache=T, message=F, warning=F}
+fit1 = rma(yi=z, vi=vi, data=df1, method = "EE")
+par(mar=c(5,0,0,0))
+forest(fit1, xlim=c(-0.3,0.85), xlab="Pearson's r", transf=fisherz2r, at=seq(-0.2,.6,.1), header=T)
+summary(fit1)
+```
+
+--------------------------------------------------------------------
+
+## Equal- and Random-Effects models differe if there is true heterogeneity... and Random-Effects models should be preferred in this case!
+
+- In the following case, the effect sizes of the studies are the same as before... but now each study is much more precise (has a larger sample). This means that observed variability across effects cannot be attributed to sampling error alone with a same underlying effect being valid for all studies. Here, heterogeneity is a real thing! Each study seems to reflect a slightly different underlying "true" effect. Here, if we fit a *random effect model*, significant heterogeneity emerge, the "tau" estimate is larger and non-negligible. Also, note that "paradoxically" the uncertainty of the meta-analytic estimate (width of the diamond) slightly increases! This is because, in presence of true heterogeneity, part of the uncertainty about the overall effect (diamond) is due to heterogeneity itself.
+
+```{r, echo=F, cache=T, message=F, warning=F}
+fit2 = rma(yi=z, vi=vi, data=df2)
+par(mar=c(5,0,0,0))
+forest(fit2, xlim=c(-0.3,0.85), xlab="Pearson's r", transf=fisherz2r, at=seq(-0.2,.6,.1), header=T)
+summary(fit2)
+```
+
+- Now, if we *inappropriately* fit an Equal-Effects model, we have the illusion that the model is more precise... but actually this is only due to neglecting true heterogeneity, so the estimates (especially the precision) are invalid:
+
+```{r, echo=F, cache=T, message=F, warning=F}
+fit2 = rma(yi=z, vi=vi, data=df2, method = "EE")
+par(mar=c(5,0,0,0))
+forest(fit2, xlim=c(-0.3,0.85), xlab="Pearson's r", transf=fisherz2r, at=seq(-0.2,.6,.1), header=T)
+summary(fit2)
+```
+
+
+In conclusion: always favor random effects models in meta-analysis! As argued by Borenstein et al. (2009), if no heterogeneity is there, this doesn't substantially affect the estimates, but if true heterogeneity is there, only random effects models are valid! So, in either case, prefer *random effects models*! Quite appropriately, random effects models are set by default in metafor!
+
+--------------------------------------------------------------------
+
+## A note on multilevel models
+
+In the case of multivariate/multilevel models (e.g., multiple Effect sizes nested in Samples nested in Studies nested in Research groups etc.) you had better test whether there is heterogeneity due to each of these levels of the hierarchical structure of dependencies before dropping that level. 
+
+Let's consider the first few rows of the following meta-analytic dataset, in which you have coded not only the effect sizes, but also the IDs of Samples nested within Studies nested within Research groups...
+
+```{r, echo=F, cache=T, message=F, warning=F}
+set.seed(1)
+k1 = 10; k2 = 3; k3 = 2; k4 = 3
+rInt1 = rep(rnorm(k1,0,0),each=k2*k3*k4); ResGroupID = rep(1:k1,each=k2*k3*k4)
+rInt2 = rep(rnorm(k2*k1,0,.3),each=k3*k4); StudyID = rep(1:(k2*k1),each=k3*k4)
+rInt3 = rep(rnorm(k3*k2*k1,0,.1),each=k4); SampleID = rep(1:(k3*k2*k1),each=k4)
+rInt4 = rnorm(k4*k3*k2*k1,0,.2); EffSizeID = 1:(k1*k2*k3*k4)
+eff = 0.4 + rInt1 + rInt2 + rInt3 + rInt4
+vi = runif(k1*k2*k3*k4, .001, .01)
+df = data.frame(ResGroupID,StudyID,SampleID,EffSizeID,eff,vi)
+```
+
+```{r, echo=F, cache=F, message=F, warning=F}
+df[1:20,]
+```
+
+Since effect sizes nested within the same "Sample" share the exact same sampling error (because they are collected on the exact same group of participants), a good idea may be to impute a correlation structure across effect sizes nested within the same Sample. The "impute_covariance_matrix" function of the "clubSandwich" package does the job. You need to assume a correlation value between effect sizes (due to sampling error), however. Values between 0.50 and 0.70 may be reasonable, but sensitivity analysis is always recommended.
+
+```{r, cache=F, message=F, warning=F}
+library(clubSandwich)
+V = impute_covariance_matrix(df$vi, cluster=df$SampleID, r=0.60)
+```
+
+Now you are ready to fit the multilevel model and see its summary:
+
+```{r, cache=F, message=F, warning=F}
+library(metafor)
+fit = rma.mv(yi=eff, V=V, random=~ 1|ResGroupID/StudyID/SampleID/EffSizeID, data=df)
+```
+
+```{r, echo=T, cache=F, message=F, warning=F}
+summary(fit)
+```
+
+- What level(s) account for more heterogeneity in this particular case?
+
+- What interpretation would you offer in this case?
+
+- What may be your further steps of investigation?
+
+--------------------------------------------------------------------
+

@@ -1,0 +1,698 @@
+Peer-reviewed,Study,Sample,Gender,N,Age.classification,Combination,WM.type1,WM.type2,Math.type,Reported.Effect.Size,MA.TA.Description,MA.TA.Name,TA.GA.Description,TA.GA.Name,COGN.Description,COGN.Name,ACH.Description,ACH.Name
+yes,"Morsanyi et al., 2014","Morsanyi et al., 2014_Adult sample",,328,Adult,MA-Maths,,,math_apply,-0.17,Math anxiety,AMAS,,,,,Mathematic,MPP
+yes,"Morsanyi et al., 2014","Morsanyi et al., 2014_Adult sample",,328,Adult,MA-TA,,,,0.54,Math anxiety,AMAS,Test anxiety,TAI,,,,
+yes,"Morsanyi et al., 2014","Morsanyi et al., 2014_Adult sample",,328,Adult,TA-Maths,,,math_apply,-0.5,,,Test anxiety,TAI,,,Mathematic,MPP
+yes,"Morsanyi et al., 2014","Morsanyi et al., 2014_Dev_Group",,184,Dev_Group,MA-Maths,,,grade,-0.22,Math anxiety,AMAS,,,,,Mathematic,
+yes,"Morsanyi et al., 2014","Morsanyi et al., 2014_Dev_Group",,184,Dev_Group,MA-TA,,,,0.49,Math anxiety,AMAS,Test anxiety,TAI,,,,
+yes,"Morsanyi et al., 2014","Morsanyi et al., 2014_Dev_Group",,184,Dev_Group,TA-Maths,,,grade,-0.06,,,Test anxiety,TAI,,,Mathematic,
+yes,"Georges et al., 2016","Georges et al., 2016",,61,Adult,MA-WM,verbal,STM,,-0.05,Math anxiety,a-MARS,,,Short-term memory,Backward digit span,,
+yes,"Georges et al., 2016","Georges et al., 2016",,61,Adult,MA-WM,spatial,WM,,-0.29,Math anxiety,a-MARS,,,Working Memory,Grid/no-grid,,
+yes,"Georges et al., 2016","Georges et al., 2016",,61,Adult,MA-Maths,,,arithmetic,-0.25,Math anxiety,a-MARS,,,,,Mathematic,zArithmetic
+yes,"Georges et al., 2016","Georges et al., 2016",,61,Adult,WM-Maths,verbal,STM,arithmetic,0,,,,,Short-term memory,Backward digit span,Mathematic,zArithmetic
+yes,"Georges et al., 2016","Georges et al., 2016",,61,Adult,WM-Maths,spatial,WM,arithmetic,0.34,,,,,Working Memory,Grid/no-grid,Mathematic,zArithmetic
+yes,"Hoffman, 2010","Hoffman, 2010",,70,Adult,MA-WM,verbal,WM,arithmetic,-0.23,Math anxiety,MAS,,,Working memory,Operation span task,,
+yes,"Hoffman, 2010","Hoffman, 2010",,70,Adult,MA-Maths,,,arithmetic,-0.38,Math anxiety,MAS,,,,,Mathematic,Self Developed
+yes,"Hoffman, 2010","Hoffman, 2010",,70,Adult,MA-Maths,,,arithmetic,-0.42,Math anxiety,MAS,,,,,Mathematic,Self Developed
+yes,"Hoffman, 2010","Hoffman, 2010",,70,Adult,MA-Maths,,,arithmetic,-0.3,Math anxiety,MAS,,,,,Mathematic,Self Developed
+yes,"Hoffman, 2010","Hoffman, 2010",,70,Adult,MA-Maths,,,arithmetic,-0.01,Math anxiety,MAS,,,,,Mathematic,Self Developed
+yes,"Hoffman, 2010","Hoffman, 2010",,70,Adult,MA-Maths,,,arithmetic,-0.33,Math anxiety,MAS,,,,,Mathematic,Self Developed
+yes,"Hoffman, 2010","Hoffman, 2010",,70,Adult,MA-Maths,,,arithmetic,-0.36,Math anxiety,MAS,,,,,Mathematic,Self Developed
+yes,"Hoffman, 2010","Hoffman, 2010",,70,Adult,WM-Maths,verbal,WM,arithmetic,0.33,,,,,Working memory,Operation span task,Mathematic,Self Developed
+yes,"Hoffman, 2010","Hoffman, 2010",,70,Adult,WM-Maths,verbal,WM,arithmetic,0.46,,,,,Working memory,Operation span task,Mathematic,Self Developed
+yes,"Hoffman, 2010","Hoffman, 2010",,70,Adult,WM-Maths,verbal,WM,arithmetic,0.15,,,,,Working memory,Operation span task,Mathematic,Self Developed
+yes,"Hoffman, 2010","Hoffman, 2010",,70,Adult,WM-Maths,verbal,WM,arithmetic,-0.03,,,,,Working memory,Operation span task,Mathematic,Self Developed
+yes,"Hoffman, 2010","Hoffman, 2010",,70,Adult,WM-Maths,verbal,WM,arithmetic,0.36,,,,,Working memory,Operation span task,Mathematic,Self Developed
+yes,"Hoffman, 2010","Hoffman, 2010",,70,Adult,WM-Maths,verbal,WM,arithmetic,0.45,,,,,Working memory,Operation span task,Mathematic,Self Developed
+yes,"Witt et al., 2012","Witt et al., 2012",,55,Dev_Group,MA-WM,verbal,WM,,0.12,Math Anxiety,MARS-E,,,Working Memory,Backward digit recall,,
+yes,"Witt et al., 2012","Witt et al., 2012",,55,Dev_Group,MA-WM,verbal,WM,,-0.11,Math Anxiety,MARS-E,,,Working Memory,Backward letters recall,,
+yes,"Witt et al., 2012","Witt et al., 2012",,55,Dev_Group,MA-WM,verbal,STM,,-0.33,Math Anxiety,MARS-E,,,Working Memory,Visual patterns digits,,
+yes,"Witt et al., 2012","Witt et al., 2012",,55,Dev_Group,MA-WM,spatial,STM,,-0.4,Math Anxiety,MARS-E,,,Working Memory,Visual patterns digits,,
+yes,"Witt et al., 2012","Witt et al., 2012",,55,Dev_Group,MA-WM,verbal,STM,,0.05,Math Anxiety,MARS-E,,,Working Memory,Visual patterns letters,,
+yes,"Witt et al., 2012","Witt et al., 2012",,55,Dev_Group,MA-WM,spatial,STM,,-0.23,Math Anxiety,MARS-E,,,Working Memory,Visual patterns letters,,
+yes,"Imbo et al., 2007b","Imbo et al., 2007b",,63,Dev_Group,MA-WM,verbal,STM,,-0.2,Math anxiety,Self developed,,,Working Memory,Digit Span WISC-R,,
+yes,"Imbo et al., 2007b","Imbo et al., 2007b",,63,Dev_Group,MA-Maths,,,arithmetic,-0.19,Math anxiety,Self developed,,,,,Mathematic,Arithmetic Tempo Test
+yes,"Imbo et al., 2007b","Imbo et al., 2007b",,63,Dev_Group,WM-Maths,verbal,STM,arithmetic,0.14,,,,,Working Memory,Digit Span WISC-R,Mathematic,Arithmetic Tempo Test
+yes,"Allen et al., 2016","Allen et al., 2016",,59,Dev_Group,MA-WM,verbal,WM,,-0.36,Math Anxiety,MARS-E,,,Working Memory,Total Digit span (WISC-III),,
+yes,"Allen et al., 2016","Allen et al., 2016",,59,Dev_Group,MA-Maths,,,,-0.41,Math Anxiety,MARS-E,,,,,Mathematic,Self developed
+yes,"Allen et al., 2016","Allen et al., 2016",,59,Dev_Group,MA-Maths,,,arithmetic,-0.12,Math Anxiety,MARS-E,,,,,Mathematic,Self developed
+yes,"Allen et al., 2016","Allen et al., 2016",,59,Dev_Group,MA-Maths,,,arithmetic,-0.38,Math Anxiety,MARS-E,,,,,Mathematic,Self developed
+yes,"Allen et al., 2016","Allen et al., 2016",,59,Dev_Group,MA-Maths,,,arithmetic,-0.19,Math Anxiety,MARS-E,,,,,Mathematic,Self developed
+yes,"Allen et al., 2016","Allen et al., 2016",,59,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.46,,,,,Working Memory,Total Digit span (WISC-III),Mathematic,Self developed
+yes,"Allen et al., 2016","Allen et al., 2016",,59,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.36,,,,,Working Memory,Total Digit span (WISC-III),Mathematic,Self developed
+yes,"Allen et al., 2016","Allen et al., 2016",,59,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.29,,,,,Working Memory,Total Digit span (WISC-III),Mathematic,Self developed
+yes,"Allen et al., 2016","Allen et al., 2016",,59,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.24,,,,,Working Memory,Total Digit span (WISC-III),Mathematic,Self developed
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,MA-WM,verbal,STM,,-0.08,Math Anxiety,MARS-R,,,Short term memory,Digit span forwards (WAIS-IV),,
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,MA-WM,verbal,STM,,-0.08,Math Anxiety,MARS-R,,,Short term memory,Digit span backwards (WAIS-IV),,
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,MA-WM,verbal,WM,,-0.12,Math Anxiety,MARS-R,,,Working memory,Digit span sequencing (WAIS-IV),,
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,MA-WM,verbal,WM,,-0.09,Math Anxiety,MARS-R,,,Working memory,Letter-numer sequencing ,,
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,MA-Maths,,,arithmetic,-0.28,Math Anxiety,MARS-R,,,,,Mathematic,WRAT-IV
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,MA-Maths,,,math_apply,-0.32,Math Anxiety,MARS-R,,,,,Mathematic ,Arithmetic (WAIS-IV)
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,MA-TA,,,,0.42,Math Anxiety,MARS-R,Test anxiety,AMAS,,,,
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,WM-Maths,verbal,STM,arithmetic,0.02,,,,,Short term memory,Digit span forwards (WAIS-IV),Mathematic,WRAT-IV
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,WM-Maths,verbal,STM,math_apply,0.44,,,,,Short term memory,Digit span forwards (WAIS-IV),Mathematic ,Arithmetic (WAIS-IV)
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,TA-WM,verbal,STM,,-0.12,,,Test anxiety,AMAS,Short term memory,Digit span forwards (WAIS-IV),,
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,WM-Maths,verbal,STM,arithmetic,0.22,,,,,Short term memory,Digit span backwards (WAIS-IV),Mathematic,WRAT-IV
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,WM-Maths,verbal,STM,math_apply,0.52,,,,,Short term memory,Digit span backwards (WAIS-IV),Mathematic ,Arithmetic (WAIS-IV)
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,TA-WM,verbal,STM,,-0.16,,,Test anxiety,AMAS,Short term memory,Digit span backwards (WAIS-IV),,
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,WM-Maths,verbal,WM,arithmetic,0.19,,,,,Working memory,Digit span sequencing (WAIS-IV),Mathematic,WRAT-IV
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,WM-Maths,verbal,WM,math_apply,0.34,,,,,Working memory,Digit span sequencing (WAIS-IV),Mathematic ,Arithmetic (WAIS-IV)
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,TA-WM,verbal,WM,,-0.11,,,Test anxiety,AMAS,Working memory,Digit span sequencing (WAIS-IV),,
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,WM-Maths,verbal,WM,arithmetic,0.08,,,,,Working memory,Letter-numer sequencing ,Mathematic,WRAT-IV
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,WM-Maths,verbal,WM,math_apply,0.34,,,,,Working memory,Letter-numer sequencing ,Mathematic ,Arithmetic (WAIS-IV)
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,TA-WM,verbal,WM,,0.02,,,Test anxiety,AMAS,Working memory,Letter-numer sequencing ,,
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,TA-Maths,,,arithmetic,-0.21,,,Test anxiety,AMAS,,,Mathematic,
+yes,"Buelow et al., 2013","Buelow et al., 2013",,172,Adult,TA-Maths,,,math_apply,-0.23,,,Test anxiety,AMAS,,,Mathematic ,
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,MA-WM,spatial,WM,,-0.08,Math Anxiety,Self developed,,,Workig memory,S CPT (Visual Matrix Subtest),,
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,MA-Maths,,,basic_know,-0.22,Math Anxiety,Self developed,,,,,Mathematic,WJ-III
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,MA-Maths,,,arithmetic,-0.32,Math Anxiety,Self developed,,,,,Mathematic,SDMT-4
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,MA-Maths,,,arithmetic,-0.28,Math Anxiety,Self developed,,,,,Mathematic,SMTA-4
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,MA-Maths,,,math_apply,-0.36,Math Anxiety,Self developed,,,,,Mathematic,Story problems. Algebra. Data analysis
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,MA-Maths,,,math_apply,-0.32,Math Anxiety,Self developed,,,,,Mathematic,Story problems. Algebra. Data analysis
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,MA-Maths,,,math_apply,-0.12,Math Anxiety,Self developed,,,,,Mathematic,KeyMath3
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,MA-Maths,,,math_apply,-0.11,Math Anxiety,Self developed,,,,,Mathematic,KeyMath3
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,WM-Maths,spatial,WM,basic_know,0.15,,,,,Workig memory,S CPT (Visual Matrix Subtest),Mathematic,WJ-III
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,WM-Maths,spatial,WM,arithmetic,0.12,,,,,Workig memory,S CPT (Visual Matrix Subtest),Mathematic,SDMT-4
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,WM-Maths,spatial,WM,arithmetic,0.19,,,,,Workig memory,S CPT (Visual Matrix Subtest),Mathematic,SMTA-4
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,WM-Maths,spatial,WM,math_apply,0.41,,,,,Workig memory,S CPT (Visual Matrix Subtest),Mathematic,Story problems. Algebra. Data analysis
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,WM-Maths,spatial,WM,math_apply,0.3,,,,,Workig memory,S CPT (Visual Matrix Subtest),Mathematic,Story problems. Algebra. Data analysis
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,WM-Maths,spatial,WM,math_apply,0.32,,,,,Workig memory,S CPT (Visual Matrix Subtest),Mathematic,KeyMath3
+yes,"Vukovik et al., 2013","Vukovik et al., 2013",,113,Dev_Group,WM-Maths,spatial,WM,math_apply,0.32,,,,,Workig memory,S CPT (Visual Matrix Subtest),Mathematic,KeyMath3
+yes,"Imbo et al., 2007a","Imbo et al., 2007a",,60,Adult,MA-Maths,,,arithmetic,-0.2,Math Anxiety,Non specified,,,,,Mathematic,French Kit
+yes,"Imbo et al., 2007a","Imbo et al., 2007a",,60,Adult,MA-Maths,,,arithmetic,-0.32,Math Anxiety,Non specified,,,,,Mathematic,French Kit
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,MA-WM,verbal,WM,,-0.47,Math anxiety,Self developed,,,Working memory,Algebra wm task based on Turner and Engle (1989),,
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,MA-WM,verbal,WM,,-0.13,Math anxiety,Self developed,,,Working memory,Algebra wm task based on Turner and Engle (1989),,
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,MA-WM,verbal,WM,,-0.33,Math anxiety,Self developed,,,Working memory,Algebra wm task based on Turner and Engle (1989),,
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,MA-WM,verbal,WM,,-0.6,Math anxiety,Self developed,,,Working memory,Algebra wm task based on Turner and Engle (1989),,
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,MA-WM,verbal,WM,,-0.07,Math anxiety,Self developed,,,Working memory,Algebra wm task based on Turner and Engle (1989),,
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,MA-WM,verbal,WM,,-0.37,Math anxiety,Self developed,,,Working memory,Algebra wm task based on Turner and Engle (1989),,
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,MA-Maths,,,math_apply,-0.38,Math anxiety,Self developed,,,,,Mathematic,Algebra problem solving task
+yes,"Trezise et al., 2014","Trezise et al., 2014",,65,Dev_Group,MA-Maths,,,arithmetic,-0.58,Math anxiety,Self developed,,,,,Mathematic,WJ-III
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,MA-Maths,,,math_apply,-0.48,Math anxiety,Self developed,,,,,Mathematic,WJ-III
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,MA-Maths,,,math_apply,-0.58,Math anxiety,Self developed,,,,,Mathematic,Algebra problem solving task
+yes,"Trezise et al., 2014","Trezise et al., 2014",,65,Dev_Group,MA-Maths,,,arithmetic,-0.62,Math anxiety,Self developed,,,,,Mathematic,WJ-III
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,MA-Maths,,,math_apply,-0.6,Math anxiety,Self developed,,,,,Mathematic,WJ-III
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,WM-Maths,verbal,WM,math_apply,0.75,,,,,Working memory,Algebra wm task based on Turner and Engle (1989),Mathematic,Algebra problem solving task
+yes,"Trezise et al., 2014","Trezise et al., 2014",,65,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.53,,,,,Working memory,Algebra wm task based on Turner and Engle (1989),Mathematic,WJ-III
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,WM-Maths,verbal,WM,math_apply,0.59,,,,,Working memory,Algebra wm task based on Turner and Engle (1989),Mathematic,WJ-III
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,WM-Maths,verbal,WM,math_apply,0.45,,,,,Working memory,Algebra wm task based on Turner and Engle (1989),Mathematic,Algebra problem solving task
+yes,"Trezise et al., 2014","Trezise et al., 2014",,65,Dev_Group,WM-Maths,verbal,WM,arithmetic,-0.02,,,,,Working memory,Algebra wm task based on Turner and Engle (1989),Mathematic,WJ-III
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,WM-Maths,verbal,WM,math_apply,-0.05,,,,,Working memory,Algebra wm task based on Turner and Engle (1989),Mathematic,WJ-III
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,WM-Maths,verbal,WM,math_apply,0.45,,,,,Working memory,Algebra wm task based on Turner and Engle (1989),Mathematic,Algebra problem solving task
+yes,"Trezise et al., 2014","Trezise et al., 2014",,65,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.6,,,,,Working memory,Algebra wm task based on Turner and Engle (1989),Mathematic,WJ-III
+yes,"Trezise et al., 2014","Trezise et al., 2014",,76,Dev_Group,WM-Maths,verbal,WM,math_apply,0.56,,,,,Working memory,Algebra wm task based on Turner and Engle (1989),Mathematic,WJ-III
+yes,"Hannon et al., 2011","Hannon et al., 2011",,253,Adult,TA-WM,verbal,WM,,0.2,Test Anxiety,Self developed,,,Working memory,Composite Working memory,,
+yes,"Hannon et al., 2011","Hannon et al., 2011",,253,Adult,TA-Maths,,,math_apply,-0.33,,,,,,,Achievement,M-SAT
+yes,"Hannon et al., 2011","Hannon et al., 2011",,253,Adult,WM-Maths,verbal,WM,math_apply,0.35,,,,,Working memory,Composite Working memory,Achievement,M-SAT
+yes,"Hannon et al., 2013","Hannon et al., 2013",,229,Adult,TA-WM,verbal,WM,,-0.39,Test Anxiety,Saranson 1978,,,Working memory,Reading span,,
+yes,"Hannon et al., 2013","Hannon et al., 2013",,229,Adult,TA-WM,verbal,WM,,-0.14,Test Anxiety,Saranson 1978,,,Working memory,Operations span,,
+yes,"Hannon et al., 2013","Hannon et al., 2013",,229,Adult,TA-Maths,,,math_apply,-0.31,Test Anxiety,Saranson 1978,,,,,Achievement,M-SAT
+yes,"Hannon et al., 2013","Hannon et al., 2013",,229,Adult,WM-Maths,verbal,WM,math_apply,0.29,,,,,,Reading span,Achievement,M-SAT
+yes,"Hannon et al., 2013","Hannon et al., 2013",,229,Adult,WM-Maths,verbal,WM,math_apply,0.29,,,,,,Operations span,Achievement,M-SAT
+yes,"Thames et al., 2015","Thames et al., 2015",,76,Adult,TA-WM,verbal,WM,,-0.29,Test Anxiety,TAI,,,Working Memory,Attention/working memory,,
+yes,"Thames et al., 2015","Thames et al., 2015",,76,Adult,TA-WM,verbal,WM,,-0.11,Test Anxiety,TAI,,,Working Memory,Attention/working memory,,
+yes,"Thames et al., 2015","Thames et al., 2015",,76,Adult,TA-WM,verbal,WM,,0.07,Test Anxiety,TAI,,,Working Memory,Attention/working memory,,
+yes,"Thames et al., 2015","Thames et al., 2015",,76,Adult,TA-WM,verbal,WM,,0.21,Test Anxiety,TAI,,,Working Memory,Attention/working memory,,
+yes,"Thames et al., 2015","Thames et al., 2015",,76,Adult,TA-WM,verbal,WM,,0.29,Test Anxiety,TAI,,,Working Memory,Attention/working memory,,
+yes,"Thames et al., 2015","Thames et al., 2015",,76,Adult,TA-WM,verbal,WM,,-0.14,Test Anxiety,TAI,,,Working Memory,Attention/working memory,,
+yes,"Thames et al., 2015","Thames et al., 2015",,76,Adult,TA-WM,verbal,WM,,0.13,Test Anxiety,TAI,,,Working Memory,Attention/working memory,,
+yes,"Thames et al., 2015","Thames et al., 2015",,76,Adult,TA-WM,verbal,WM,,0.27,Test Anxiety,TAI,,,Working Memory,Attention/working memory,,
+yes,"Ng et al., 2015","Ng et al., 2015",,121,Dev_Group,TA-WM,verbal,WM,,-0.22,Test Anxiety-Low situational stress,TAI,,,Working memory-low situatonal stress,Self developed,,
+yes,"Ng et al., 2015","Ng et al., 2015",,121,Dev_Group,TA-Maths,,,arithmetic,-0.21,Test Anxiety-Low situational stress,TAI,,,,,Mathematic,Mathematic-low situational stress
+yes,"Ng et al., 2015","Ng et al., 2015",,121,Dev_Group,TA-Maths,,,arithmetic,-0.28,Test Anxiety-Low situational stress,TAI,,,,,Mathematic,Mathematic-low situational stress
+yes,"Ng et al., 2015","Ng et al., 2015",,121,Dev_Group,GA-Maths,,,,-0.15,,,State Anxiety-Low situational stress,STAIC,,,Mathematic,Mathematic-low situational stress
+yes,"Ng et al., 2015","Ng et al., 2015",,121,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.33,,,,,Working memory-low situatonal stress,Self developed,Mathematic,Mathematic-low situational stress
+yes,"Ng et al., 2015","Ng et al., 2015",,121,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.47,,,,,Working memory-low situatonal stress,Self developed,Mathematic,Mathematic-low situational stress
+yes,"Miller et al., 2004","Miller et al., 2004_male sample",males,38,Adult,MA-Maths,,,arithmetic,-0.53,,,,,,,,
+yes,"Miller et al., 2004","Miller et al., 2004_female sample",females,62,Adult,MA-Maths,,,arithmetic,-0.37,,,,,,,,
+yes,"Miller et al., 2004","Miller et al., 2004_male sample",males,38,Adult,MA-Maths,,,math_apply,-0.3,,,,,,,,
+yes,"Miller et al., 2004","Miller et al., 2004_female sample",females,62,Adult,MA-Maths,,,math_apply,-0.33,,,,,,,,
+yes,"Ganley et al., 2014","Ganley et al., 2014_Study1",,87,Adult,TA-WM,verbal,WM,,-0.25,Test Anxiety,Morris et al.,,,Working Memory,Listenig Span Task,,
+yes,"Ganley et al., 2014","Ganley et al., 2014_Study1",,87,Adult,TA-WM,spatial,WM,,-0.41,Test Anxiety,Morris et al.,,,Working Memory,Spatial Recall Task,,
+yes,"Ganley et al., 2014","Ganley et al., 2014_Study1",,87,Adult,TA-Maths,,,math_apply,-0.47,Test Anxiety,Morris et al.,,,,,Mathematic,Self-developed
+yes,"Ganley et al., 2014","Ganley et al., 2014_Study1",,87,Adult,WM-Maths,verbal,WM,math_apply,0.19,,,,,Working Memory,Listenig Span Task,Mathematic,Self-developed
+yes,"Ganley et al., 2014","Ganley et al., 2014_Study1",,87,Adult,WM-Maths,spatial,WM,math_apply,0.51,,,,,Working Memory,Spatial Recall Task,Mathematic,Self-developed
+yes,"Ganley et al., 2014","Ganley et al., 2014_Study2",,118,Adult,TA-WM,verbal,WM,,0.01,Test Anxiety,Morris et al.,,,Working Memory,Listenig Span Task,,
+yes,"Ganley et al., 2014","Ganley et al., 2014_Study2",,118,Adult,TA-WM,spatial,WM,,-0.39,Test Anxiety,Morris et al.,,,Working Memory,Spatial Recall Task,,
+yes,"Ganley et al., 2014","Ganley et al., 2014_Study2",,118,Adult,TA-Maths,,,math_apply,-0.34,Test Anxiety,Morris et al.,,,,,Mathematic,Self-developed
+yes,"Ganley et al., 2014","Ganley et al., 2014_Study2",,118,Adult,WM-Maths,verbal,WM,math_apply,-0.06,,,,,Working Memory,Listenig Span Task,Mathematic,Self-developed
+yes,"Ganley et al., 2014","Ganley et al., 2014_Study2",,118,Adult,WM-Maths,spatial,WM,math_apply,0.41,,,,,Working Memory,Spatial Recall Task,Mathematic,Self-developed
+yes,"Owens et al., 2008","Owens et al., 2008",,50,Dev_Group,GA-Maths,,,math_apply,-0.28,Test Anxiety,?STAIC,,,,,Mathematic,SATs
+yes,"Owens et al., 2008","Owens et al., 2008",,50,Dev_Group,WM-Maths,verbal,WM,math_apply,0.49,,,,,Working Memory,Backward digits,Mathematic,SATs
+yes,"Owens et al., 2008","Owens et al., 2008",,50,Dev_Group,WM-Maths,spatial,STM,math_apply,0.23,,,,,Working Memory,Forward spatial span,Mathematic,SATs
+yes,"Prevatt et al., 2010","Prevatt et al., 2010",,115,Adult,MA-Maths,,,math_apply,-0.29,Math anxiety,LASSI -Learning and Study Strategies Inventory,,,,,Mathematic,WJ-III ACH
+yes,"Prevatt et al., 2010","Prevatt et al., 2010",,115,Adult,MA-Maths,,,arithmetic,-0.39,Math anxiety,LASSI -Learning and Study Strategies Inventory,,,,,Mathematic,WJ-III ACH
+yes,"Prevatt et al., 2010","Prevatt et al., 2010",,115,Adult,MA-Maths,,,arithmetic,-0.28,Math anxiety,LASSI -Learning and Study Strategies Inventory,,,,,Mathematic,WJ-III ACH
+yes,"Prevatt et al., 2010","Prevatt et al., 2010",,115,Adult,MA-Maths,,,basic_know,-0.27,Math anxiety,LASSI -Learning and Study Strategies Inventory,,,,,Mathematic,WJ-III ACH
+yes,"Prevatt et al., 2010","Prevatt et al., 2010",,115,Adult,MA-WM,verbal,STM,,-0.06,Math anxiety,LASSI -Learning and Study Strategies Inventory,,,Working Memory,Short term memory WJ-III,,
+yes,"Prevatt et al., 2010","Prevatt et al., 2010",,115,Adult,WM-Maths,verbal,STM,math_apply,0.44,,,,,Working Memory,Short term memory WJ-III,Mathematic,WJ-III ACH
+yes,"Prevatt et al., 2010","Prevatt et al., 2010",,115,Adult,WM-Maths,verbal,STM,arithmetic,0.26,,,,,Working Memory,Short term memory WJ-III,Mathematic,WJ-III ACH
+yes,"Prevatt et al., 2010","Prevatt et al., 2010",,115,Adult,WM-Maths,verbal,STM,arithmetic,0.29,,,,,Working Memory,Short term memory WJ-III,Mathematic,WJ-III ACH
+yes,"Prevatt et al., 2010","Prevatt et al., 2010",,115,Adult,WM-Maths,verbal,STM,basic_know,0.29,,,,,Working Memory,Short term memory WJ-III,Mathematic,WJ-III ACH
+yes,"Ashkenazi et al., 2017","Ashkenazi et al., 2017",,58,Adult,MA-Maths,,,arithmetic,-0.54,Math anxiety,MARS-Short version,,,,,Mathematic,MATAL  - Procedural Know. + Calculation automaticity
+yes,"Ashkenazi et al., 2017","Ashkenazi et al., 2017",,58,Adult,MA-Maths,,,basic_know,-0.28,Math anxiety,MARS-Short version,,,,,Mathematic,MATAL  - Number line Know.
+yes,"Ashkenazi et al., 2017","Ashkenazi et al., 2017",,58,Adult,WM-Maths,spatial,STM,arithmetic,0.19,,,,,Short-term ,Spatial span test -forward,Mathematic,MATAL  - Procedural Know. + Calculation automaticity
+yes,"Ashkenazi et al., 2017","Ashkenazi et al., 2017",,58,Adult,WM-Maths,spatial,STM,basic_know,0.03,,,,,Short-term ,Spatial span test -forward,Mathematic,MATAL  - Number line Know.
+yes,"Ashkenazi et al., 2017","Ashkenazi et al., 2017",,58,Adult,WM-Maths,spatial,STM,arithmetic,0.19,,,,,Working Memory,Spatial span test -backward,Mathematic,MATAL  - Procedural Know. + Calculation automaticity
+yes,"Ashkenazi et al., 2017","Ashkenazi et al., 2017",,58,Adult,WM-Maths,spatial,STM,basic_know,0.46,,,,,Working Memory,Spatial span test -backward,Mathematic,MATAL  - Number line Know.
+yes,"Ashkenazi et al., 2017","Ashkenazi et al., 2017",,58,Adult,WM-Maths,verbal,STM,arithmetic,-0.01,,,,,Working Memory,Phonological span test,Mathematic,MATAL  - Procedural Know. + Calculation automaticity
+yes,"Ashkenazi et al., 2017","Ashkenazi et al., 2017",,58,Adult,WM-Maths,verbal,STM,basic_know,0.16,,,,,Working Memory,Phonological span test,Mathematic,MATAL  - Number line Know.
+yes,"Ashkenazi et al., 2017","Ashkenazi et al., 2017",,58,Adult,WM-Maths,verbal,STM,arithmetic,0.33,,,,,Short-term ,Digit span test-forward,Mathematic,MATAL  - Procedural Know. + Calculation automaticity
+yes,"Ashkenazi et al., 2017","Ashkenazi et al., 2017",,58,Adult,WM-Maths,verbal,STM,basic_know,0.31,,,,,Short-term ,Digit span test-forward,Mathematic,MATAL  - Number line Know.
+yes,"Ashkenazi et al., 2017","Ashkenazi et al., 2017",,58,Adult,WM-Maths,verbal,STM,arithmetic,0.44,,,,,Working Memory,Digit span test-backward,Mathematic,MATAL  - Procedural Know. + Calculation automaticity
+yes,"Ashkenazi et al., 2017","Ashkenazi et al., 2017",,58,Adult,WM-Maths,verbal,STM,basic_know,0.36,,,,,Working Memory,Digit span test-backward,Mathematic,MATAL  - Number line Know.
+yes,"Beasley et al., 2001","Beasley et al., 2001",,278,Dev_Group,MA-Maths,,,arithmetic,-0.28,Math anxiety,MASC,,,,,Mathematic,Cog AT - Quantitative
+yes,"Beasley et al., 2001","Beasley et al., 2001",,278,Dev_Group,MA-Maths,,,math_apply,-0.14,Math anxiety,MASC,,,,,Mathematic,Cog AT - Verbal
+yes,"Beasley et al., 2001","Beasley et al., 2001",,278,Dev_Group,MA-Maths,,,math_apply,-0.19,Math anxiety,MASC,,,,,Mathematic,Cog AT - NonVerbal
+yes,"Carey et al., 2017","Carey et al., 2017_Group1",,817,Dev_Group,MA-Maths,,,math_apply,-0.31,Math anxiety,mAMAS,,,,,Mathematic,MaLT-9
+yes,"Carey et al., 2017","Carey et al., 2017_Group1",,817,Dev_Group,TA-Maths,,,math_apply,-0.26,,,Test anxiety,CTAS,,,Mathematic,MaLT-9
+yes,"Carey et al., 2017","Carey et al., 2017_Group1",,817,Dev_Group,MA-TA,,,,0.71,Math anxiety,mAMAS,Test anxiety,CTAS,,,,
+yes,"Carey et al., 2017","Carey et al., 2017_Group2",,903,Dev_Group,MA-Maths,,,math_apply,-0.28,Math anxiety,mAMAS,,,,,Mathematic,MaLT-12/13
+yes,"Carey et al., 2017","Carey et al., 2017_Group2",,903,Dev_Group,TA-Maths,,,math_apply,-0.16,,,Test anxiety,CTAS,,,Mathematic,MaLT-12/13
+yes,"Carey et al., 2017","Carey et al., 2017_Group2",,903,Dev_Group,MA-TA,,,,0.69,Math anxiety,mAMAS,Test anxiety,CTAS,,,,
+yes,"Caviola et al., 2017","Caviola et al., 2017",,1011,Dev_Group,MA-Maths,,,arithmetic,-0.12,Math anxiety,AMAS,,,,,Mathematic,ACMT 
+yes,"Caviola et al., 2017","Caviola et al., 2017",,1008,Dev_Group,MA-Maths,,,arithmetic,-0.22,Math anxiety,AMAS,,,,,Mathematic,Math Fluency
+yes,"Caviola et al., 2017","Caviola et al., 2017",,1009,Dev_Group,MA-Maths,,,arithmetic,-0.24,Math anxiety,AMAS,,,,,Mathematic,Math Fluency
+yes,"Caviola et al., 2017","Caviola et al., 2017",,1009,Dev_Group,MA-Maths,,,arithmetic,-0.19,Math anxiety,AMAS,,,,,Mathematic,Math Fluency
+yes,"Caviola et al., 2017","Caviola et al., 2017",,1012,Dev_Group,MA-Maths,,,arithmetic,-0.11,Math anxiety,AMAS,,,,,Mathematic,ACMT 
+yes,"Caviola et al., 2017","Caviola et al., 2017",,1009,Dev_Group,MA-Maths,,,arithmetic,-0.19,Math anxiety,AMAS,,,,,Mathematic,Math Fluency
+yes,"Caviola et al., 2017","Caviola et al., 2017",,1010,Dev_Group,MA-Maths,,,arithmetic,-0.22,Math anxiety,AMAS,,,,,Mathematic,Math Fluency
+yes,"Caviola et al., 2017","Caviola et al., 2017",,1010,Dev_Group,MA-Maths,,,arithmetic,-0.16,Math anxiety,AMAS,,,,,Mathematic,Math Fluency
+yes,"Caviola et al., 2017","Caviola et al., 2017",,1012,Dev_Group,MA-Maths,,,arithmetic,-0.11,Math anxiety,AMAS,,,,,Mathematic,ACMT 
+yes,"Caviola et al., 2017","Caviola et al., 2017",,1009,Dev_Group,MA-Maths,,,arithmetic,-0.2,Math anxiety,AMAS,,,,,Mathematic,Math Fluency
+yes,"Caviola et al., 2017","Caviola et al., 2017",,1010,Dev_Group,MA-Maths,,,arithmetic,-0.21,Math anxiety,AMAS,,,,,Mathematic,Math Fluency
+yes,"Caviola et al., 2017","Caviola et al., 2017",,1010,Dev_Group,MA-Maths,,,arithmetic,-0.17,Math anxiety,AMAS,,,,,Mathematic,Math Fluency
+yes,"Devine et al., 2012","Devine et al., 2012_male sample",males,268,Dev_Group,MA-Maths,,,arithmetic,-0.18,Math anxiety,AMAS,,,,,Mathematics,Self-developed
+yes,"Devine et al., 2012","Devine et al., 2012_male sample",males,268,Dev_Group,TA-Maths,,,arithmetic,-0.11,,,Test anxiety,Saransons TA Scale,,,Mathematics,Self-developed
+yes,"Devine et al., 2012","Devine et al., 2012_male sample",males,268,Dev_Group,MA-TA,,,,0.76,Math anxiety,AMAS,Test anxiety,Saransons TA Scale,,,,
+yes,"Devine et al., 2012","Devine et al., 2012_female sample",females,165,Dev_Group,MA-Maths,,,arithmetic,-0.35,Math anxiety,AMAS,,,,,Mathematics,Self-developed
+yes,"Devine et al., 2012","Devine et al., 2012_female sample",females,165,Dev_Group,TA-Maths,,,arithmetic,-0.21,,,Test anxiety,Saransons TA Scale,,,Mathematics,Self-developed
+yes,"Devine et al., 2012","Devine et al., 2012_female sample",females,165,Dev_Group,MA-TA,,,,0.36,Math anxiety,AMAS,Test anxiety,Saransons TA Scale,,,,
+yes,"Devine et al., 2012","Devine et al., 2012_male sample",males,268,Dev_Group,MA-Maths,,,arithmetic,-0.17,Math anxiety,AMAS,,,,,Mathematics,Self-developed
+yes,"Devine et al., 2012","Devine et al., 2012_male sample",males,268,Dev_Group,TA-Maths,,,arithmetic,-0.11,,,Test anxiety,Saransons TA Scale,,,Mathematics,Self-developed
+yes,"Devine et al., 2012","Devine et al., 2012_male sample",males,268,Dev_Group,MA-TA,,,,0.49,Math anxiety,AMAS,Test anxiety,Saransons TA Scale,,,,
+yes,"Devine et al., 2012","Devine et al., 2012_female sample",females,165,Dev_Group,MA-Maths,,,arithmetic,-0.33,Math anxiety,AMAS,,,,,Mathematics,Self-developed
+yes,"Devine et al., 2012","Devine et al., 2012_female sample",females,165,Dev_Group,TA-Maths,,,arithmetic,-0.2,,,Test anxiety,Saransons TA Scale,,,Mathematics,Self-developed
+yes,"Devine et al., 2012","Devine et al., 2012_female sample",females,165,Dev_Group,MA-TA,,,,0.36,Math anxiety,AMAS,Test anxiety,Saransons TA Scale,,,,
+yes,"Erturan et al., 2015","Erturan et al., 2015_male sample_S1",males,71,Dev_Group,MA-Maths,,,arithmetic,-0.15,Math anxiety,MAS-NL,,,,,Mathematics,TTR
+yes,"Erturan et al., 2015","Erturan et al., 2015_female sample_S1",females,63,Dev_Group,MA-Maths,,,arithmetic,-0.37,Math anxiety,MAS-NL,,,,,Mathematics,TTR
+yes,"Erturan et al., 2015","Erturan et al., 2015_male sample_S2",males,110,Dev_Group,MA-Maths,,,arithmetic,-0.07,Math anxiety,MAS-NL,,,,,Mathematics,TTA
+yes,"Erturan et al., 2015","Erturan et al., 2015_female sample_S2",females,98,Dev_Group,MA-Maths,,,arithmetic,-0.23,Math anxiety,MAS-NL,,,,,Mathematics,TTA
+yes,"Ferla et al., 2009","Ferla et al., 2009",,8796,Dev_Group,MA-Maths,,,math_apply,-0.24,Math anxiety,PISA ,,,,,Mathematics,PISA
+yes,"Hill et al., 2016","Hill et al., 2016_ female children",females,322,Dev_Group,MA-Maths,,,arithmetic,-0.13,Math anxiety,AMAS,,,,,Mathematics,ACMT
+yes,"Hill et al., 2016","Hill et al., 2016_male children",males,148,Dev_Group,MA-Maths,,,arithmetic,-0.07,Math anxiety,AMAS,,,,,Mathematics,ACMT
+yes,"Hill et al., 2016","Hill et al., 2016_ female adolescent",females,317,Dev_Group,MA-Maths,,,arithmetic,-0.34,Math anxiety,AMAS,,,,,Mathematics,ACMT
+yes,"Hill et al., 2016","Hill et al., 2016_male adolescent",males,194,Dev_Group,MA-Maths,,,arithmetic,-0.28,Math anxiety,AMAS,,,,,Mathematics,ACMT
+yes,"Ramirez et al., 2016","Ramirez et al., 2016",,465,Dev_Group,MA-Maths,,,math_apply,-0.28,Math anxiety,CMAQ-R,,,,,Mathematics,WJ-III
+yes,"Sorvo et al., 2017","Sorvo et al., 2017_female sample",females,638,Dev_Group,MA-Maths,,,arithmetic,-0.16,Math anxiety,self created,,,,,Mathematics,Composite
+yes,"Sorvo et al., 2017","Sorvo et al., 2017_male sample",males,689,Dev_Group,MA-Maths,,,arithmetic,-0.12,Math anxiety,self created,,,,,Mathematics,Composite
+yes,"Timmerman et al., 2017","Timmerman et al., 2017",,108,Dev_Group,TA-Maths,,,arithmetic,0.08,,,Test anxiety,PMTK-2,,,Mathematics,Math speed test
+yes,"Timmerman et al., 2017","Timmerman et al., 2017_male sample",males,67,Dev_Group,MA-Maths,,,arithmetic,-0.12,Math anxiety,MEQ,,,,,Mathematics,Math speed test
+yes,"Timmerman et al., 2017","Timmerman et al., 2017_female sample",females,41,Dev_Group,MA-Maths,,,arithmetic,-0.28,Math anxiety,MEQ,,,,,Mathematics,Math speed test
+yes,"Timmerman et al., 2017","Timmerman et al., 2017_male sample",males,67,Dev_Group,MA-Maths,,,math_apply,-0.17,Math anxiety,MEQ,,,,,Mathematics,Cito test
+yes,"Timmerman et al., 2017","Timmerman et al., 2017_female sample",females,41,Dev_Group,MA-Maths,,,math_apply,-0.29,Math anxiety,MEQ,,,,,Mathematics,Cito test
+yes,"Braham et al., 2018","Braham et al., 2018",,87,Adult,MA-Maths,,,basic_know,-0.04,Math anxiety,MARS-A,,,,,Mathematics,Self-developed
+yes,"Braham et al., 2018","Braham et al., 2018",,87,Adult,MA-Maths,,,arithmetic,-0.19,Math anxiety,MARS-A,,,,,Mathematics,WJ-III
+yes,"Braham et al., 2018","Braham et al., 2018",,87,Adult,MA-Maths,,,arithmetic,-0.17,Math anxiety,MARS-A,,,,,Mathematics,WJ-III
+yes,"Braham et al., 2018","Braham et al., 2018",,87,Adult,MA-Maths,,,math_apply,-0.22,Math anxiety,MARS-A,,,,,Mathematics,WJ-III
+yes,"Braham et al., 2018","Braham et al., 2018",,87,Adult,MA-WM,verbal,STM,,-0.13,Math anxiety,MARS-A,,,Working memory,Backward digits,,
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,MA-Maths,,,basic_know,-0.03,Math anxiety,SEMA,,,,,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,MA-Maths,,,arithmetic,-0.13,Math anxiety,SEMA,,,,,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,MA-Maths,,,arithmetic,-0.05,Math anxiety,SEMA,,,,,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,MA-GA,,,,0.37,Math anxiety,SEMA,General Anxiety,DAYS,,,,
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,MA-GA,,,,0.09,Math anxiety,SEMA,General Anxiety,DAYS,,,,
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,MA-WM,verbal,WM,,-0.01,Math anxiety,SEMA,,,Working memory,Backward word ,,
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,MA-WM,verbal,WM,,-0.07,Math anxiety,SEMA,,,Working memory,Backward digits,,
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,MA-WM,spatial,WM,,-0.01,Math anxiety,SEMA,,,Working memory,Path dual task,,
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,WM-Maths,verbal,WM,basic_know,0.02,,,,,Working memory,Backward word ,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.1,,,,,Working memory,Backward word ,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.16,,,,,Working memory,Backward word ,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,WM-Maths,verbal,WM,basic_know,0.3,,,,,Working memory,Backward digits,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.02,,,,,Working memory,Backward digits,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.16,,,,,Working memory,Backward digits,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,WM-Maths,spatial,WM,basic_know,0.19,,,,,Working memory,Path dual task,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,WM-Maths,spatial,WM,arithmetic,0.03,,,,,Working memory,Path dual task,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,WM-Maths,spatial,WM,arithmetic,0.1,,,,,Working memory,Path dual task,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,GA-Maths,,,basic_know,-0.03,,,General Anxiety,DAYS,,,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,GA-Maths,,,arithmetic,-0.12,,,General Anxiety,DAYS,,,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,GA-Maths,,,arithmetic,-0.07,,,General Anxiety,DAYS,,,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,GA-Maths,,,basic_know,-0.11,,,General Anxiety,DAYS,,,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,GA-Maths,,,arithmetic,-0.23,,,General Anxiety,DAYS,,,Mathematics,Self-developed
+yes,"Cargnelutti et al., 2017a","Cargnelutti et al., 2017a",,156,Dev_Group,GA-Maths,,,arithmetic,-0.1,,,General Anxiety,DAYS,,,Mathematics,Self-developed
+yes,"Cohen et al., 2017","Cohen et al., 2017",,27,Dev_Group,MA-Maths,,,arithmetic,-0.28,Math anxiety,AMAS,,,,,Mathematics,WJ-III
+yes,"Cohen et al., 2017","Cohen et al., 2017",,27,Dev_Group,MA-Maths,,,arithmetic,-0.42,Math anxiety,AMAS,,,,,Mathamtics,WJ-III
+yes,"Gunderson et al., 2017","Gunderson et al., 2017",,595,Dev_Group,MA-Maths,,,math_apply,-0.13,Math anxiety,CMAQ-R,,,,,Mathematics,WJ-III
+yes,"Gunderson et al., 2017","Gunderson et al., 2017",,595,Dev_Group,MA-Maths,,,math_apply,-0.28,Math anxiety,CMAQ-R,,,,,Mathematics,WJ-III
+yes,"Gunderson et al., 2017","Gunderson et al., 2017",,595,Dev_Group,MA-Maths,,,math_apply,-0.38,Math anxiety,CMAQ-R,,,,,Mathematics,WJ-III
+yes,"Gunderson et al., 2017","Gunderson et al., 2017",,595,Dev_Group,MA-Maths,,,math_apply,-0.42,Math anxiety,CMAQ-R,,,,,Mathematics,WJ-III
+yes,"Justicia-Galliano et al., 2017","Justicia-Galliano et al., 2017",,167,Dev_Group,MA-Maths,,,arithmetic,-0.26,Math anxiety,AMAS,,,,,Mathematics,WJ-IIII
+yes,"Justicia-Galliano et al., 2017","Justicia-Galliano et al., 2017",,167,Dev_Group,MA-Maths,,,math_apply,-0.27,Math anxiety,AMAS,,,,,Mathematics,BADyG
+yes,"Justicia-Galliano et al., 2017","Justicia-Galliano et al., 2017",,165,Dev_Group,MA-Maths,,,grade,-0.27,Math anxiety,AMAS,,,,,Mathematics,Teacher rates
+yes,"Justicia-Galliano et al., 2017","Justicia-Galliano et al., 2017",,164,Dev_Group,MA-WM,verbal,WM,,-0.23,Math anxiety,AMAS,,,Working memory,Backward word and digits,,
+yes,"Justicia-Galliano et al., 2017","Justicia-Galliano et al., 2017",,167,Dev_Group,MA-GA,,,,0.46,Math anxiety,AMAS,General Anxiety,SATIC,,,,
+yes,"Justicia-Galliano et al., 2017","Justicia-Galliano et al., 2017",,164,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.38,,,,,Working memory,Backward word and digits,Mathematics,WJ-IIII
+yes,"Justicia-Galliano et al., 2017","Justicia-Galliano et al., 2017",,164,Dev_Group,WM-Maths,verbal,WM,math_apply,0.4,,,,,Working memory,Backward word and digits,Mathematics,BADyG
+yes,"Justicia-Galliano et al., 2017","Justicia-Galliano et al., 2017",,164,Dev_Group,WM-Maths,verbal,WM,grade,0.33,,,,,Working memory,Backward word and digits,Mathematics,Teacher rates
+yes,"Justicia-Galliano et al., 2017","Justicia-Galliano et al., 2017",,167,Dev_Group,GA-Maths,,,arithmetic,-0.16,,,General Anxiety,SATIC,,,Mathematics,WJ-IIII
+yes,"Justicia-Galliano et al., 2017","Justicia-Galliano et al., 2017",,167,Dev_Group,GA-Maths,,,math_apply,-0.14,,,General Anxiety,SATIC,,,Mathematics,BADyG
+yes,"Justicia-Galliano et al., 2017","Justicia-Galliano et al., 2017",,165,Dev_Group,GA-Maths,,,grade,-0.19,,,General Anxiety,SATIC,,,Mathematics,Teacher rates
+yes,"Grays et al., 2017","Grays et al., 2017",,81,Dev_Group,MA-Maths,,,arithmetic,-0.16,Math anxiety,MARS-E,,,,,Mathematics,MEAP Math
+yes,"Lee & Cho, 2018","Lee & Cho, 2018",,82,Adult,MA-Maths,,,arithmetic,-0.28,Math anxiety,K-MARS,,,,,Mathematics,Self-developed
+yes,"Primi et al., 2018","Primi et al., 2018",,181,Adult,MA-Maths,,,math_apply,-0.29,Math anxiety,AMAS,,,,,Mathematics,BNT + PRS
+yes,"Schillinger et al., 2018","Schillinger et al., 2018",,341,Adult,MA-Maths,,,arithmetic,-0.24,Math anxiety,AMAS-G,,,,,Mathematics,Vogel et al.
+yes,"Schillinger et al., 2018","Schillinger et al., 2018",,341,Adult,MA-Maths,,,arithmetic,-0.27,Math anxiety,AMAS-G,,,,,Mathematics,Vogel et al.
+yes,"Schillinger et al., 2018","Schillinger et al., 2018",,341,Adult,MA-Maths,,,math_apply,-0.41,Math anxiety,AMAS-G,,,,,Mathematics,M-PA
+yes,"Wu et al., 2012","Wu et al., 2012",,162,Dev_Group,MA-Maths,,,arithmetic,-0.34,Math anxiety,SEMA,,,,,Mathematics,WIAT-II
+yes,"Wu et al., 2012","Wu et al., 2012",,162,Dev_Group,MA-Maths,,,math_apply,-0.18,Math anxiety,SEMA,,,,,Mathematics,WIAT-II
+yes,"Skagerlund et al., 2018","Skagerlund et al., 2018",,2063,Adult,MA-Maths,,,math_apply,-0.32,Math anxiety,MAS-UK,,,,,Mathematics,Schwartz + BNT
+yes,"Recber et al., 2018","Recber et al., 2018",,934,Dev_Group,MA-Maths,,,grade,-0.42,Math anxiety,MANX,,,,,Mathematics,SLDE
+yes,"Jansen et al., 2016","Jansen et al., 2016_male sample",males,214,Adult,MA-Maths,,,arithmetic,-0.1,Math anxiety,MASC,,,,,Mathematics,Math garden (customized)
+yes,"Jansen et al., 2016","Jansen et al., 2016_female sample",females,307,Adult,MA-Maths,,,arithmetic,-0.39,Math anxiety,MASC,,,,,Mathematics,Math garden (customized)
+yes,"Novak et al., 2015","Novak et al., 2015",,30,Dev_Group,MA-Maths,,,math_apply,-0.72,Math anxiety,Fenneman-Sherman,,,,,,
+yes,"Novak et al., 2015","Novak et al., 2015",,30,Dev_Group,MA-WM,verbal,WM,,-0.45,Math anxiety,Fenneman-Sherman,,,Working memory,Operation span,,
+yes,"Ashcraft et al., 2001","Ashcraft et al., 2001_Group1",,66,Adult,MA-Maths,,,grade,-0.29,Math anxiety,SMARS,,,,,,
+yes,"Ashcraft et al., 2001","Ashcraft et al., 2001_Group1",,66,Adult,MA-WM,verbal,WM,,-0.36,Math anxiety,SMARS,,,Working Memory,Listenig Span Task,,
+yes,"Ashcraft et al., 2001","Ashcraft et al., 2001_Group1",,66,Adult,MA-WM,verbal,WM,,-0.44,Math anxiety,SMARS,,,Working Memory,Computation Span Task,,
+yes,"Ashcraft et al., 2001","Ashcraft et al., 2001_Group2",,45,Adult,MA-Maths,,,grade,-0.35,Math anxiety,SMARS,,,,,,
+yes,"Ashcraft et al., 2001","Ashcraft et al., 2001_Group2",,45,Adult,MA-WM,verbal,WM,,-0.2,Math anxiety,SMARS,,,Working Memory,Listenig Span Task,,
+yes,"Ashcraft et al., 2001","Ashcraft et al., 2001_Group2",,45,Adult,MA-WM,verbal,WM,,-0.4,Math anxiety,SMARS,,,Working Memory,Computation Span Task,,
+yes,"Ashcraft et al., 2001","Ashcraft et al., 2001_Group2",,45,Adult,MA-WM,verbal,WM,,-0.44,Math anxiety,SMARS,,,Working Memory,Letter tranformation,,
+yes,"Ashcraft et al., 2001","Ashcraft et al., 2001_Group2",,45,Adult,MA-WM,verbal,WM,,-0.44,Math anxiety,SMARS,,,Working Memory,Numer transformation,,
+yes,"Zirk-Sadowki et al., 2014","Zirk-Sadowki et al., 2014",,182,Dev_Group,MA-Maths,,,math_apply,-0.39,Math anxiety,Abbreviated AMAS,,,,,,
+yes,"VanMier et al., 2019","VanMier et al., 2019_male grade2",males,26,Dev_Group,MA-Maths,,,arithmetic,-0.04,Math anxiety,CMAQ-R,,,,,Mathematics,TTA - Tempo Test Arithmetic
+yes,"VanMier et al., 2019","VanMier et al., 2019_female grade2",females,36,Dev_Group,MA-Maths,,,arithmetic,-0.55,Math anxiety,CMAQ-R,,,,,Mathematics,TTA - Tempo Test Arithmetic
+yes,"VanMier et al., 2019","VanMier et al., 2019_male grade4",males,31,Dev_Group,MA-Maths,,,arithmetic,-0.09,Math anxiety,CMAQ-R,,,,,Mathematics,TTA - Tempo Test Arithmetic
+yes,"VanMier et al., 2019","VanMier et al., 2019_female grade4",females,31,Dev_Group,MA-Maths,,,arithmetic,-0.41,Math anxiety,CMAQ-R,,,,,Mathematics,TTA - Tempo Test Arithmetic
+yes,"Devine et al., 2018","Devine et al., 2018",,1757,Dev_Group,MA-Maths,,,math_apply,-0.3,Math anxiety,mAMAS,,,,,Mathematics,MaLT
+yes,"Calvo et al., 1992","Calvo et al., 1992",,36,Adult,TA-WM,verbal,STM,,-0.22,,,,Test Anxiety,Short-term memory,Letter span-different letters,,
+yes,"Calvo et al., 1992","Calvo et al., 1992",,36,Adult,TA-WM,verbal,WM,,-0.34,,,,Test Anxiety,Working memory,Reading span,,
+yes,"Abu-Hilal, 2000","Abu-Hilal, 2000",,394,Dev_Group,MA-Maths,,,math_apply,-0.45,Math anxiety,Self-devolped ,,,,,Mathematics,Non specified
+yes,"Abu-Hilal, 2000","Abu-Hilal, 2000",,394,Dev_Group,MA-Maths,,,math_apply,-0.36,Math anxiety,Self-devolped ,,,,,Mathematics,Non specified
+yes,"Abu-Hilal, 2000","Abu-Hilal, 2000",,394,Dev_Group,MA-Maths,,,math_apply,-0.4,Math anxiety,Self-devolped ,,,,,Mathematics,Non specified
+yes,"Ahmed et al., 2008","Ahmed et al., 2008",,238,Dev_Group,MA-Maths,,,grade,-0.46,Math anxiety,Adapted from AEQ-M,,,,,Mathematics,non specified
+yes,"Awofala et al., 2014","Awofala et al., 2014",,350,Dev_Group,MA-Maths,,,math_apply,-0.2,math anxiety,Mathematics Word Problems Inventory (ATMWPI),,,,,Mathematics,Mathmeatics Word Problems Achievement Test (MAWPAT)
+yes,"Bai et al., 2001","Bai et al., 2001",,647,Dev_Group,MA-Maths,,,,-0.38,Math anxiety,Mathematics Anxiety Scale?Revised,,,,,Mathematics,Mathematics Benchmark test
+yes,"Baia et al, 1990","Baia et al, 1990",,418,Dev_Group,MA-Maths,,,grade,-0.42,Math anxiety,Mathematics Anxiety Rating Scale (MARS),,,,,mathematics,non specified
+yes,"Birgin et al., 2010","Birgin et al., 2010_Grade6",,73,Dev_Group,MA-Maths,,,grade,-0.49,Math anxiety,Math Anxiety Scale for Elementary School Student (MAESS),,,,,mathematics,non specified
+yes,"Birgin et al., 2010","Birgin et al., 2010_Grade7",,73,Dev_Group,MA-Maths,,,grade,-0.41,Math anxiety,Math Anxiety Scale for Elementary School Student (MAESS),,,,,mathematics,non specified
+yes,"Birgin et al., 2010","Birgin et al., 2010_Grade8",,74,Dev_Group,MA-Maths,,,grade,-0.39,Math anxiety,Math Anxiety Scale for Elementary School Student (MAESS),,,,,mathematics,non specified
+yes,"Bosmans et al., 2015","Bosmans et al., 2015",,87,Dev_Group,MA-Maths,,,arithmetic,-0.42,Math anxiety,Mathematics Anxiety Rating Scale for Adolescent (MARS-A),,,,,mathematics,Tempo Test Arithmetic
+yes,"Bosmans et al., 2015","Bosmans et al., 2015",,87,Dev_Group,MA-Maths,,,math_apply,-0.43,Math anxiety,Mathematics Anxiety Rating Scale for Adolescent (MARS-A),,,,,mathematics,curriculum-based standardized achievement test
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade2",,198,Dev_Group,MA-Maths,,,arithmetic,0.01,Math anxiety,SEMA 2,,,,,mathematics,Written computation
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade2",,198,Dev_Group,MA-Maths,,,arithmetic,0.04,Math anxiety,SEMA 2,,,,,mathematics,Math problems
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade2",,198,Dev_Group,MA-Maths,,,basic_know,-0.61,Math anxiety,SEMA 2,,,,,mathematics,Mat 2-module number 
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade2",,198,Dev_Group,MA-GA,,,,0.29,Math anxiety,SEMA 2,General anxiety,Depression and Anxiety in youth scale - self report (DAYS 2),,,,
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade2",,198,Dev_Group,MA-GA,,,,0.01,Math anxiety,SEMA 2,General anxiety,Depression and Anxiety in youth scale - observed (DAYS 2),,,,
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade2",,198,Dev_Group,GA-Maths,,,arithmetic,-0.28,,,General anxiety,Depression and Anxiety in youth scale - self report (DAYS 2),,,mathematics,Written computation
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade2",,198,Dev_Group,GA-Maths,,,arithmetic,-0.02,,,General anxiety,Depression and Anxiety in youth scale - self report (DAYS 2),,,mathematics,Math problems
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade2",,198,Dev_Group,GA-Maths,,,basic_know,-0.24,,,General anxiety,Depression and Anxiety in youth scale - self report (DAYS 2),,,mathematics,Mat 2-module number 
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade2",,198,Dev_Group,GA-Maths,,,arithmetic,-0.21,,,General anxiety,Depression and Anxiety in youth scale - observed (DAYS 2),,,mathematics,Written computation
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade2",,198,Dev_Group,GA-Maths,,,arithmetic,-0.46,,,General anxiety,Depression and Anxiety in youth scale - observed (DAYS 2),,,mathematics,Math problems
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade2",,198,Dev_Group,GA-Maths,,,basic_know,-0.19,,,General anxiety,Depression and Anxiety in youth scale - observed (DAYS 2),,,mathematics,Mat 2-module number 
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade3",,80,Dev_Group,MA-Maths,,,arithmetic,-0.31,Math anxiety,SEMA 3,,,,,mathematics,Written computation
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade3",,80,Dev_Group,MA-Maths,,,arithmetic,-0.31,Math anxiety,SEMA 3,,,,,mathematics,Math problems
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade3",,80,Dev_Group,MA-Maths,,,basic_know,-0.36,Math anxiety,SEMA 3,,,,,mathematics,Mat 2-module number 
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade3",,80,Dev_Group,MA-GA,,,,0.38,Math anxiety,SEMA 3,General anxiety,Depression and Anxiety in youth scale - self report (DAYS 3),,,,
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade3",,80,Dev_Group,MA-GA,,,,0.37,Math anxiety,SEMA 3,General anxiety,Depression and Anxiety in youth scale - observed (DAYS 3),,,,
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade3",,80,Dev_Group,GA-Maths,,,arithmetic,-0.26,,,General anxiety,Depression and Anxiety in youth scale - self report (DAYS 3),,,mathematics,Written computation
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade3",,80,Dev_Group,GA-Maths,,,arithmetic,-0.31,,,General anxiety,Depression and Anxiety in youth scale - self report (DAYS 3),,,mathematics,Math problems
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade3",,80,Dev_Group,GA-Maths,,,basic_know,-0.17,,,General anxiety,Depression and Anxiety in youth scale - self report (DAYS 3),,,mathematics,Mat 2-module number 
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade3",,80,Dev_Group,GA-Maths,,,arithmetic,-0.34,,,General anxiety,Depression and Anxiety in youth scale - observed (DAYS 3),,,mathematics,Written computation
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade3",,80,Dev_Group,GA-Maths,,,arithmetic,-0.35,,,General anxiety,Depression and Anxiety in youth scale - observed (DAYS 3),,,mathematics,Math problems
+yes,"Cargnelutti et al., 2017b","Cargnelutti et al., 2017b_Grade3",,80,Dev_Group,GA-Maths,,,basic_know,-0.35,,,General anxiety,Depression and Anxiety in youth scale - observed (DAYS 3),,,mathematics,Mat 2-module number 
+yes,"Casad et al., 2015","Casad et al., 2015",,683,Dev_Group,MA-Maths,,,grade,-0.37,Math anxiety,Self developed,,,,,mathematics,GPA
+yes,"Casey et al., 1997","Casey et al., 1997",,274,Dev_Group,MA-Maths,,,math_apply,-0.2,math anxiety,Self developed,,,,,mathematics,SAT-M
+yes,"Casey et al., 1997","Casey et al., 1997",,274,Dev_Group,MA-Maths,,,grade,0.1,math anxiety,Self developed,,,,,mathematics,grade
+yes,"Cheema et al., 2015","Cheema et al., 2015",,4978,Dev_Group,MA-Maths,,,grade,-0.39,math anxiety,self developed,,,,,mathematics,grade
+yes,"Ching et al., 2017","Ching et al., 2017",,246,Dev_Group,MA-TA,,,,0.2,math anxiety,self developed,test anxiety,Children.s Test Anxiety (Chinese version),,,,
+yes,"Ching et al., 2017","Ching et al., 2017",,246,Dev_Group,MA-GA,,,,0.19,math anxiety,self developed,General anxiety,CBCL (anxiety problem scale),,,,
+yes,"Ching et al., 2017","Ching et al., 2017",,246,Dev_Group,MA-WM,verbal,WM,,0.08,math anxiety,self developed,,,verbal working memory,WISC III,,
+yes,"Ching et al., 2017","Ching et al., 2017",,246,Dev_Group,MA-Maths,,,basic_know,0.02,math anxiety,self developed,,,,,mathematics,Number knowled test adpted
+yes,"Ching et al., 2017","Ching et al., 2017",,246,Dev_Group,MA-Maths,,,arithmetic,-0.32,math anxiety,self developed,,,,,mathematics,self developed
+yes,"Ching et al., 2017","Ching et al., 2017",,246,Dev_Group,TA-Maths,,,basic_know,0.02,test anxiety,Children.s Test Anxiety (Chinese version),,,,,mathematics,Number knowled test adpted
+yes,"Ching et al., 2017","Ching et al., 2017",,246,Dev_Group,TA-Maths,,,arithmetic,0.06,test anxiety,Children.s Test Anxiety (Chinese version),,,,,mathematics,self developed
+yes,"Ching et al., 2017","Ching et al., 2017",,246,Dev_Group,GA-Maths,,,basic_know,0,,,General anxiety,CBCL (anxiety problem scale),,,mathematics,Number knowled test adpted
+yes,"Ching et al., 2017","Ching et al., 2017",,246,Dev_Group,GA-Maths,,,arithmetic,0.03,,,General anxiety,CBCL (anxiety problem scale),,,mathematics,self developed
+yes,"Ching et al., 2017","Ching et al., 2017",,246,Dev_Group,WM-Maths,verbal,WM,basic_know,0.23,,,,,verbal working memory,WISC III,mathematics,Number knowled test adpted
+yes,"Ching et al., 2017","Ching et al., 2017",,246,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.21,,,,,verbal working memory,WISC III,mathematics,self developed
+yes,"Chiftci et al., 2015","Chiftci et al., 2015",,638,Dev_Group,MA-Maths,,,grade,-0.33,math anxiety,Mathematic Anxiety Assessment Scale,,,,,mathematics,GPA
+yes,"Gogol et al., 2014","Gogol et al., 2014",,3879,Dev_Group,MA-Maths,,,math_apply,-0.26,math anxiety,self developed-Full Scale,,,,,mathematics,competency test self developed
+yes,"Gogol et al., 2014","Gogol et al., 2014",,3879,Dev_Group,MA-Maths,,,math_apply,-0.25,math anxiety,self developed-Short Scale,,,,,mathematics,competency test self developed
+yes,"Gogol et al., 2014","Gogol et al., 2014",,3879,Dev_Group,MA-Maths,,,math_apply,-0.15,math anxiety,self developed-Single Item,,,,,mathematics,competency test self developed
+yes,"Gogol et al., 2014","Gogol et al., 2014",,3879,Dev_Group,GA-Maths,,,math_apply,-0.26,,,General School Anxiety,self developed-Full Scale,,,mathematics,competency test self developed
+yes,"Gogol et al., 2014","Gogol et al., 2014",,3879,Dev_Group,GA-Maths,,,math_apply,-0.22,,,General School Anxiety,self developed-Short Scale,,,mathematics,competency test self developed
+yes,"Gogol et al., 2014","Gogol et al., 2014",,3879,Dev_Group,GA-Maths,,,math_apply,-0.22,,,General School Anxiety,self developed-Single Item,,,mathematics,competency test self developed
+yes,"Federici et al., 2014","Federici et al., 2014",,309,Dev_Group,MA-Maths,,,grade,-0.3,Math anxiety,Self developed,,,,,Mathematic,
+yes,"Gierl et al., 1995","Gierl et al., 1995_Grade3",,47,Dev_Group,MA-Maths,,,math_apply,-0.26,Math anxiey,MAXS,,,,,Mathematic,Mathematic achievement test
+yes,"Gierl et al., 1995","Gierl et al., 1995_Grade3",,47,Dev_Group,MA-TA,,,,0.5,Math anxiey,MAXS,Test anxiety,STAS,,,,
+yes,"Gierl et al., 1995","Gierl et al., 1995_Grade3",,47,Dev_Group,TA-Maths,,,math_apply,-0.01,,,Test anxiety,STAS,,,Mathematic,Mathematic achievement test
+yes,"Gierl et al., 1995","Gierl et al., 1995_Grade3",,47,Dev_Group,MA-TA,,,,0.42,Math anxiey,MAXS,Test anxiety,STAS,,,,
+yes,"Gierl et al., 1995","Gierl et al., 1995_Grade3",,47,Dev_Group,MA-Maths,,,math_apply,-0.37,Math anxiey,MAXS,,,,,Mathematic,Mathematic achievement test
+yes,"Gierl et al., 1995","Gierl et al., 1995_Grade6",,48,Dev_Group,MA-Maths,,,math_apply,-0.33,Math anxiey,MAXS,,,,,Mathematic,Mathematic achievement test
+yes,"Gierl et al., 1995","Gierl et al., 1995_Grade6",,48,Dev_Group,MA-TA,,,,0.49,Math anxiey,MAXS,Test anxiety,STAS,,,,
+yes,"Gierl et al., 1995","Gierl et al., 1995_Grade6",,48,Dev_Group,TA-Maths,,,math_apply,-0.1,,,Test anxiety,STAS,,,Mathematic,Mathematic achievement test
+yes,"Gierl et al., 1995","Gierl et al., 1995_Grade6",,48,Dev_Group,MA-TA,,,,0.21,Math anxiey,MAXS,Test anxiety,STAS,,,,
+yes,"Gierl et al., 1995","Gierl et al., 1995_Grade6",,48,Dev_Group,MA-Maths,,,math_apply,-0.41,Math anxiey,MAXS,,,,,Mathematic,Mathematic achievement test
+yes,"Goetz et al., 2010","Goetz et al., 2010_Grade8_A",,699,Dev_Group,MA-Maths,,,grade,-0.46,Math anxiety,Self developed adapted by AEQ(Pekrun et al.),,,,,Mathematic,
+yes,"Goetz et al., 2010","Goetz et al., 2010_Grade8_B",,274,Dev_Group,MA-Maths,,,grade,-0.42,Math anxiety,Self developed adapted by AEQ(Pekrun et al.),,,,,Mathematic,
+yes,"Goetz et al., 2010","Goetz et al., 2010_Grade11_A",,551,Dev_Group,MA-Maths,,,grade,-0.57,Math anxiety,Self developed adapted by AEQ(Pekrun et al.),,,,,Mathematic,
+yes,"Goetz et al., 2010","Goetz et al., 2010_Grade11_B",,163,Dev_Group,MA-Maths,,,grade,-0.58,Math anxiety,Self developed adapted by AEQ(Pekrun et al.),,,,,Mathematic,
+yes,"Guderson et al., 2018","Guderson et al., 2018",,583,Dev_Group,MA-Maths,,,math_apply,-0.29,Math anxiety,CMAQ-R,,,,,Mathematic, WoodcockJohnson III Tests of Achievement
+yes,"Guderson et al., 2018","Guderson et al., 2018",,589,Dev_Group,MA-Maths,,,math_apply,-0.42,Math anxiety,CMAQ-R,,,,,Mathematic, WoodcockJohnson III Tests of Achievement
+yes,"Ganley et al., 2016","Ganley et al., 2016",,281,Dev_Group,GA-Maths,,,math_apply,-0.13,-,-,General anxiety,Spencer Children Anxiety Scale,,,Mathematic,self-developed
+yes,"Ganley et al., 2016","Ganley et al., 2016",,281,Dev_Group,MA-Maths,,,math_apply,-0.14,Math anxiety,MASYC,-,-,,,Mathematic,self-developed
+yes,"Ganley et al., 2016","Ganley et al., 2016",,281,Dev_Group,MA-Maths,,,math_apply,-0.06,Math anxiety,MASYC,-,-,,,Mathematic,self-developed
+yes,"Ganley et al., 2016","Ganley et al., 2016",,281,Dev_Group,MA-Maths,,,math_apply,-0.13,Math anxiety,MASYC,-,-,,,Mathematic,self-developed
+yes,"Ganley et al., 2016","Ganley et al., 2016",,281,Dev_Group,MA-Maths,,,math_apply,-0.19,Math anxiety,MASYC-R,-,-,,,Mathematic,self-developed
+yes,"Ganley et al., 2016","Ganley et al., 2016",,281,Dev_Group,MA-Maths,,,math_apply,-0.08,Math anxiety,MASYC-R,-,-,,,Mathematic,self-developed
+yes,"Ganley et al., 2016","Ganley et al., 2016",,281,Dev_Group,MA-Maths,,,math_apply,-0.2,Math anxiety,MASYC-R,-,-,,,Mathematic,self-developed
+yes,"Ganley et al., 2016","Ganley et al., 2016",,281,Dev_Group,MA-GA,,,,0.54,Math anxiety,MASYC,General anxiety,Spencer Children Anxiety Scale,,,-,
+yes,"Ganley et al., 2016","Ganley et al., 2016",,281,Dev_Group,MA-GA,,,,0.43,Math anxiety,MASYC,General anxiety,Spencer Children Anxiety Scale,,,-,
+yes,"Ganley et al., 2016","Ganley et al., 2016",,281,Dev_Group,MA-GA,,,,0.57,Math anxiety,MASYC,General anxiety,Spencer Children Anxiety Scale,,,-,
+yes,"Ganley et al., 2016","Ganley et al., 2016",,281,Dev_Group,MA-GA,,,,0.62,Math anxiety,MASYC-R,General anxiety,Spencer Children Anxiety Scale,,,-,
+yes,"Ganley et al., 2016","Ganley et al., 2016",,281,Dev_Group,MA-GA,,,,0.45,Math anxiety,MASYC-R,General anxiety,Spencer Children Anxiety Scale,,,-,
+yes,"Ganley et al., 2016","Ganley et al., 2016",,281,Dev_Group,MA-GA,,,,0.66,Math anxiety,MASYC-R,General anxiety,Spencer Children Anxiety Scale,,,-,
+yes,"Guven et al., 2013","Guven et al., 2013",,115,Dev_Group,MA-Maths,,,math_apply,-0.35,Math anxiety,Mathematics anxiety scale (Bindak),,,,,Problem-solving,self-developed
+yes,Erturan et al.,"Erturan et al., 2015_Study1 male",males,73,Dev_Group,MA-Maths,,,arithmetic,-0.15,Math anxiety,MASC-NL,,,,,Math performance,Arithmetic Number Fact Test (TTR)
+yes,Erturan et al.,"Erturan et al., 2015_Study1 female",females,61,Dev_Group,MA-Maths,,,arithmetic,-0.37,Math anxiety,MASC-NL,,,,,Math performance,Arithmetic Number Fact Test (TTR)
+yes,Erturan et al.,"Erturan et al., 2015_Study2 male",males,110,Dev_Group,MA-Maths,,,arithmetic,-0.07,Math anxiety,MASC-NL,,,,,Math performance,Tempo Test Autormatiseren (TTA)
+yes,Erturan et al.,"Erturan et al., 2015_Study2 female",females,98,Dev_Group,MA-Maths,,,arithmetic,-0.23,Math anxiety,MASC-NL,,,,,Math performance,Tempo Test Autormatiseren (TTA)
+yes,"Frenzel et al., 2007","Frenzel et al., 2007_German sample",,312,Dev_Group,MA-Maths,,,grade,-0.5,Math anxiety,AEQ-M,,,,,Mathematic,
+yes,"Frenzel et al., 2007","Frenzel et al., 2007_German sample",,312,Dev_Group,MA-Maths,,,grade,-0.6,Math anxiety,AEQ-M,,,,,Mathematic,
+yes,"Frenzel et al., 2007","Frenzel et al., 2007_German sample",,312,Dev_Group,MA-Maths,,,grade,-0.32,Math anxiety,AEQ-M,,,,,Mathematic,
+yes,"Frenzel et al., 2007","Frenzel et al., 2007_Chinese sample",,579,Dev_Group,MA-Maths,,,grade,-0.46,Math anxiety,AEQ-M,,,,,Mathematic,
+yes,"Frenzel et al., 2007","Frenzel et al., 2007_Chinese sample",,579,Dev_Group,MA-Maths,,,grade,-0.54,Math anxiety,AEQ-M,,,,,Mathematic,
+yes,"Frenzel et al., 2007","Frenzel et al., 2007_Chinese sample",,579,Dev_Group,MA-Maths,,,grade,-0.55,Math anxiety,AEQ-M,,,,,Mathematic,
+yes,"Goetz et al., 2007","Goetz et al., 2007_Grade8",,307,Dev_Group,MA-Maths,,,grade,-0.51,Math anxiety,AEQ-M (Pekrun et al. 2005),,,,,Mathematic,
+yes,"Goetz et al., 2007","Goetz et al., 2007_Grade11",,235,Dev_Group,MA-Maths,,,grade,-0.54,Math anxiety,AEQ-M (Pekrun et al. 2005),,,,,Mathematic,
+yes,"Hamid et al., 2013","Hamid et al., 2013",,204,Dev_Group,MA-Maths,,,grade,-0.26,Math anxiety,MARS-R,,,,,Mathematic,
+yes,"Hamid et al., 2013","Hamid et al., 2013",,204,Dev_Group,MA-Maths,,,grade,0.18,Math anxiety,MARS-R,,,,,Mathematic,
+yes,"Engelhard, 1990","Engelhard, 1990_USA sample",,4091,Dev_Group,MA-Maths,,,math_apply,-0.24,Math anxiety,SIMS,,,,,Mathematic,
+yes,"Engelhard, 1990","Engelhard, 1990_Thai sample",,3613,Dev_Group,MA-Maths,,,math_apply,-0.14,Math anxiety,SIMS,,,,,Mathematic,
+yes,"Goetz et al., 2006","Goetz et al., 2006",,721,Dev_Group,MA-Maths,,,grade,-0.29,Math anxiety,PALMA,,,,,Mathematic,
+yes,"Harari et al., 2013","Harari et al., 2013",,106,Dev_Group,MA-Maths,,,arithmetic,-0.3,Math anxiety,Self-developed,,,,,Mathematics,SDMT4 - Computation subtest
+yes,"Harari et al., 2013","Harari et al., 2013",,106,Dev_Group,MA-Maths,,,basic_know,-0.28,Math anxiety,Self-developed,,,,,Mathematics,MASI - skip and rote counting
+yes,"Harari et al., 2013","Harari et al., 2013",,106,Dev_Group,MA-Maths,,,basic_know,-0.35,Math anxiety,Self-developed,,,,,Mathematics,WJ III - math concept
+yes,"Harari et al., 2013","Harari et al., 2013",,106,Dev_Group,MA-Maths,,,math_apply,-0.15,Math anxiety,Self-developed,,,,,Mathematics,WJ III- number series
+yes,"Hart et al., 2016","Hart et al., 2016",,493,Dev_Group,MA-Maths,,,arithmetic,-0.3,Math anxiety,Revised MARS-E,,,,,Mathematics,WJ III - Calculation
+yes,"Hart et al., 2016","Hart et al., 2016",,509,Dev_Group,MA-Maths,,,math_apply,-0.31,Math anxiety,Revised MARS-E,,,,,Mathematics,WJ III - applied problems
+yes,"Hart et al., 2016","Hart et al., 2016",,484,Dev_Group,MA-Maths,,,basic_know,-0.06,Math anxiety,Revised MARS-E,,,,,Mathematics,Dots Task
+yes,"Hart et al., 2016","Hart et al., 2016",,475,Dev_Group,MA-Maths,,,basic_know,-0.14,Math anxiety,Revised MARS-E,,,,,Mathematics,Number-Line Task
+yes,"Hart et al., 2016","Hart et al., 2016",,502,Dev_Group,MA-Maths,,,arithmetic,-0.24,Math anxiety,Revised MARS-E,,,,,Mathematics,WJ III 
+yes,"Henschel et al., 2017","Henschel et al., 2017",,368,Dev_Group,MA-Maths,,,math_apply,-0.68,Math anxiety,Self-developed,,,,,Mathematics,DEMAT 3+
+yes,"Henschel et al., 2017","Henschel et al., 2017",,368,Dev_Group,MA-Maths,,,math_apply,-0.52,Math anxiety,Self-developed,,,,,Mathematics,DEMAT 3+
+yes,"Hunt et al., 2017","Hunt et al., 2017",,77,Dev_Group,MA-Maths,,,math_apply,-0.21,Math anxiety,MASC,,,,,Mathematics,self-developed
+yes,"Hunt et al., 2017","Hunt et al., 2017",,77,Dev_Group,MA-Maths,,,math_apply,-0.48,Math anxiety,MASC,,,,,Mathematics,self-developed
+yes,"Kalaycioglu, 2015","Kalaycioglu, 2015_England sample",,1316,Dev_Group,MA-Maths,,,math_apply,-0.16,Math anxiety,self-developed,,,,,Mathematics,PISA
+yes,"Kalaycioglu, 2015","Kalaycioglu, 2015_Greece sample",,1582,Dev_Group,MA-Maths,,,math_apply,-0.25,Math anxiety,Self-developed,,,,,Mathematics,PISA
+yes,"Kalaycioglu, 2015","Kalaycioglu, 2015_Hong Kong sample",,1496,Dev_Group,MA-Maths,,,math_apply,-0.19,Math anxiety,Self-developed,,,,,Mathematics,PISA
+yes,"Kalaycioglu, 2015","Kalaycioglu, 2015_Netherlands sample",,1344,Dev_Group,MA-Maths,,,math_apply,-0.08,Math anxiety,Self-developed,,,,,Mathematics,PISA
+yes,"Kalaycioglu, 2015","Kalaycioglu, 2015_Turkey sample",,1504,Dev_Group,MA-Maths,,,math_apply,-0.14,Math anxiety,Self-developed,,,,,Mathematics,PISA
+yes,"Kalaycioglu, 2015","Kalaycioglu, 2015_USA sample",,1564,Dev_Group,MA-Maths,,,math_apply,-0.22,Math anxiety,Self-developed,,,,,Mathematics,PISA
+yes,"Kim et al., 2014","Kim et al., 2014",,72,Dev_Group,MA-Maths,,,grade,-0.33,Math Anxiety,AEQ-M,,,,,,
+yes,"Kyttala et al., 2010","Kyttala et al., 2010",,116,Dev_Group,MA-Maths,,,math_apply,-0.19,Math Anxiety,MAQ,,,,,Mathematics,KTLT
+yes,"Kyttala et al., 2010","Kyttala et al., 2010",,116,Dev_Group,MA-Maths,,,math_apply,-0.23,Math Anxiety,MAQ,,,,,Mathematics,KTLT
+yes,"Kyttala et al., 2014","Kyttala et al., 2014_male sample",males,42,Dev_Group,MA-Maths,,,math_apply,-0.19,Math Anxiety,MARS,,,,,Mathematics,KTLT
+yes,"Kyttala et al., 2014","Kyttala et al., 2014_male sample",males,42,Dev_Group,MA-Maths,,,arithmetic,-0.08,Math Anxiety,MARS,,,,,Mathematics,KTLT
+yes,"Kyttala et al., 2014","Kyttala et al., 2014_female sample",females,32,Dev_Group,MA-Maths,,,math_apply,-0.36,Math Anxiety,MARS,,,,,Mathematics,KTLT
+yes,"Kyttala et al., 2014","Kyttala et al., 2014_female sample",females,32,Dev_Group,MA-Maths,,,arithmetic,-0.13,Math Anxiety,MARS,,,,,Mathematics,KTLT
+yes,"Lim et al., 2013","Lim et al., 2013",,1601,Dev_Group,MA-Maths,,,math_apply,-0.5,Math Anxiety,FSMAS-R,,,,,Mathematics,non specified
+yes,"Lim et al., 2015","Lim et al., 2015_male",males,497,Dev_Group,MA-Maths,,,math_apply,-0.46,Math Anxiety,FSMAS-R,,,,,Mathematics,self-developed
+yes,"Lim et al., 2015","Lim et al., 2015_male",males,497,Dev_Group,MA-Maths,,,math_apply,-0.41,Math Anxiety,FSMAS-R,,,,,Mathematics,self-developed
+yes,"Lim et al., 2015","Lim et al., 2015_female",females,521,Dev_Group,MA-Maths,,,math_apply,-0.54,Math Anxiety,FSMAS-R,,,,,Mathematics,self-developed
+yes,"Lim et al., 2015","Lim et al., 2015_female",females,521,Dev_Group,MA-Maths,,,math_apply,-0.45,Math Anxiety,FSMAS-R,,,,,Mathematics,self-developed
+yes,"Luo et al., 2013","Luo et al., 2013",,1667,Dev_Group,MA-Maths,,,math_apply,-0.3,Math Anxiety,Adapted PISA,,,,,Mathematics,self-developed
+yes,"Luo et al., 2013","Luo et al., 2013",,1667,Dev_Group,MA-Maths,,,grade,-0.08,Math Anxiety,Adapted PISA,,,,,Mathematics,
+yes,"Luo et al., 2014","Luo et al., 2014_Group1",,273,Dev_Group,MA-Maths,,,grade,-0.36,Math Anxiety,self-developed,,,,,Mathematics,
+yes,"Luo et al., 2014","Luo et al., 2014_Group2",,1196,Dev_Group,MA-Maths,,,math_apply,-0.29,Math Anxiety,Adapted PISA,,,,,Mathematics,self-developed
+yes,"Luo et al., 2014","Luo et al., 2014_Group2",,1196,Dev_Group,MA-Maths,,,grade,-0.08,Math Anxiety,Adapted PISA,,,,,Mathematics,
+yes,"Lupkowski et al., 1991","Lupkowski et al., 1991_male sample",males,44,Dev_Group,MA-Maths,,,math_apply,-0.2,Math Anxiety,MARS,,,,,Mathematics,M-SAT
+yes,"Lupkowski et al., 1991","Lupkowski et al., 1991_male sample",males,44,Dev_Group,MA-Maths,,,grade,-0.28,Math Anxiety,MARS,,,,,Mathematics,
+yes,"Lupkowski et al., 1991","Lupkowski et al., 1991_female sample",females,22,Dev_Group,MA-Maths,,,math_apply,0.03,Math Anxiety,MARS,,,,,Mathematics,M-SAT
+yes,"Lupkowski et al., 1991","Lupkowski et al., 1991_female sample",females,22,Dev_Group,MA-Maths,,,grade,0.34,Math Anxiety,MARS,,,,,Mathematics,
+yes,"Marsh et al., 2017","Marsh et al., 2017",,1325,Dev_Group,MA-Maths,,,grade,-0.34,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,
+yes,"Marsh et al., 2017","Marsh et al., 2017",,1325,Dev_Group,MA-Maths,,,math_apply,-0.26,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,PALMA  Mathematical Achievement Test 
+yes,"Marsh et al., 2017","Marsh et al., 2017",,1325,Dev_Group,MA-Maths,,,grade,-0.3,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,
+yes,"Marsh et al., 2017","Marsh et al., 2017",,1325,Dev_Group,MA-Maths,,,math_apply,-0.24,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,PALMA  Mathematical Achievement Test 
+yes,"Marsh et al., 2017","Marsh et al., 2017",,1325,Dev_Group,MA-Maths,,,grade,-0.25,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,
+yes,"Marsh et al., 2017","Marsh et al., 2017",,1325,Dev_Group,MA-Maths,,,math_apply,-0.23,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,PALMA  Mathematical Achievement Test 
+yes,"Marsh et al., 2017","Marsh et al., 2017",,1325,Dev_Group,MA-Maths,,,grade,-0.23,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,
+yes,"Marsh et al., 2017","Marsh et al., 2017",,1325,Dev_Group,MA-Maths,,,math_apply,-0.25,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,PALMA  Mathematical Achievement Test 
+yes,"Marsh et al., 2017","Marsh et al., 2017",,1325,Dev_Group,MA-Maths,,,grade,-0.21,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,
+yes,"Marsh et al., 2017","Marsh et al., 2017",,1325,Dev_Group,MA-Maths,,,math_apply,-0.23,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,PALMA  Mathematical Achievement Test 
+yes,"Meece et al., 1990","Meece et al., 1990",,250,Dev_Group,MA-Maths,,,grade,-0.12,Math Anxiety,Self developed,,,,,Mathematics,
+yes,"Meece et al., 1990","Meece et al., 1990",,250,Dev_Group,MA-Maths,,,grade,-0.24,Math Anxiety,Self developed,,,,,Mathematics,
+yes,"Meece et al., 1990","Meece et al., 1990",,250,Dev_Group,MA-Maths,,,grade,-0.13,Math Anxiety,Self developed,,,,,Mathematics,
+yes,"Meece et al., 1990","Meece et al., 1990",,250,Dev_Group,MA-Maths,,,grade,-0.29,Math Anxiety,Self developed,,,,,Mathematics,
+yes,"Meece et al., 1990","Meece et al., 1990",,250,Dev_Group,MA-Maths,,,grade,-0.25,Math Anxiety,Self developed,,,,,Mathematics,
+yes,"Meece et al., 1990","Meece et al., 1990",,250,Dev_Group,MA-Maths,,,grade,-0.26,Math Anxiety,Self developed,,,,,Mathematics,
+yes,"Meece et al., 1990","Meece et al., 1990",,250,Dev_Group,MA-Maths,,,grade,-0.19,Math Anxiety,Self developed,,,,,Mathematics,
+yes,"Meece et al., 1990","Meece et al., 1990",,250,Dev_Group,MA-Maths,,,grade,-0.17,Math Anxiety,Self developed,,,,,Mathematics,
+yes,"Meece et al., 1990","Meece et al., 1990",,250,Dev_Group,MA-Maths,,,grade,-0.06,Math Anxiety,Self developed,,,,,Mathematics,
+yes,"Meece et al., 1990","Meece et al., 1990",,250,Dev_Group,MA-Maths,,,grade,-0.2,Math Anxiety,Self developed,,,,,Mathematics,
+yes,"Mevarech et al., 1991","Mevarech et al., 1991",,149,Dev_Group,MA-Maths,,,math_apply,-0.44,Math Anxiety,Self developed ,,,,,Mathematics,TOAM
+yes,"Morony et al., 2013","Morony et al., 2013",,7167,Dev_Group,MA-Maths,,,math_apply,-0.27,Math Anxiety,Self developed ,,,,,Mathematics,9 items from PISA + 1 item TIMSS
+yes,"Ottmar et al., 2017","Ottmar et al., 2017",,98,Dev_Group,MA-Maths,,,math_apply,0.07,Math Anxiety,Self developed (adapted by Kaya. 2009),,,,,Mathematics,Simplifying Expressions Assessments
+yes,"Ottmar et al., 2017","Ottmar et al., 2017",,98,Dev_Group,MA-Maths,,,math_apply,-0.2,Math Anxiety,Self developed (adapted by Kaya. 2009),,,,,Mathematics,Simplifying Expressions Assessments
+yes,"Ottmar et al., 2017","Ottmar et al., 2017",,98,Dev_Group,MA-Maths,,,math_apply,-0.14,Math Anxiety,Self developed (adapted by Kaya. 2009),,,,,Mathematics,Simplifying Expressions Assessments
+yes,"Ottmar et al., 2017","Ottmar et al., 2017",,98,Dev_Group,MA-Maths,,,math_apply,-0.2,Math Anxiety,Self developed (adapted by Kaya. 2009),,,,,Mathematics,Simplifying Expressions Assessments
+yes,"Pajares et al., 1995","Pajares et al., 1995",,329,Dev_Group,MA-Maths,,,math_apply,-0.46,Math Anxiety,MAS,,,,,Mathematics,MCS (Dowling. 1978)
+yes,"Pajares et al., 1996","Pajares et al., 1996_normal sample",,231,Dev_Group,MA-Maths,,,math_apply,-0.42,Math Anxiety,MAS,,,,,Mathematics,Self Developed
+yes,"Pajares et al., 1996","Pajares et al., 1996_normal sample",,231,Dev_Group,MA-Maths,,,grade,-0.49,Math Anxiety,MAS,,,,,Mathematics,
+yes,"Pajares et al., 1996","Pajares et al., 1996_gifted sample",,66,Dev_Group,MA-Maths,,,math_apply,-0.4,Math Anxiety,MAS,,,,,Mathematics,Self Developed
+yes,"Pajares et al., 1996","Pajares et al., 1996_gifted sample",,66,Dev_Group,MA-Maths,,,grade,-0.54,Math Anxiety,MAS,,,,,Mathematics,
+yes,"Pajares et al., 1999","Pajares et al., 1999",,273,Dev_Group,MA-Maths,,,math_apply,-0.4,Math Anxiety,Self developed,,,,,Mathematics,End-of-unit Math Exam
+yes,"Pajares et al., 1999","Pajares et al., 1999",,273,Dev_Group,MA-Maths,,,math_apply,-0.35,Math Anxiety,Self developed,,,,,Mathematics,ITBS Iowa Test of Basic Skills
+yes,"Pajares et al., 1999","Pajares et al., 1999",,273,Dev_Group,MA-Maths,,,math_apply,0.32,Math Anxiety,Self developed,,,,,Mathematics,End-of-unit Math Exam
+yes,"Pajares et al., 1999","Pajares et al., 1999",,273,Dev_Group,MA-Maths,,,math_apply,-0.41,Math Anxiety,Self developed,,,,,Mathematics,ITBS Iowa Test of Basic Skills
+yes,"Pedro et al., 1981","Pedro et al., 1981_Grade9 female",females,302,Dev_Group,MA-Maths,,,math_apply,-0.16,Math Anxiety,FennemaSherman Mathematics Attitude Scales,,,,,Mathematics,Cooperative Mathematics Tests (Algebra) 
+yes,"Pedro et al., 1981","Pedro et al., 1981_Grade9 male",males,244,Dev_Group,MA-Maths,,,math_apply,-0.46,Math Anxiety,FennemaSherman Mathematics Attitude Scales,,,,,Mathematics,Cooperative Mathematics Tests (Algebra) 
+yes,"Pedro et al., 1981","Pedro et al., 1981_Grade10 female",females,331,Dev_Group,MA-Maths,,,math_apply,-0.34,Math Anxiety,FennemaSherman Mathematics Attitude Scales,,,,,Mathematics,Cooperative Mathematics Tests (Geometry) 
+yes,"Pedro et al., 1981","Pedro et al., 1981_Grade10 male",males,328,Dev_Group,MA-Maths,,,math_apply,-0.44,Math Anxiety,FennemaSherman Mathematics Attitude Scales,,,,,Mathematics,Cooperative Mathematics Tests (Geometry) 
+yes,"Peixoto et al., 2017","Peixoto et al., 2017",,1219,Dev_Group,MA-Maths,,,grade,-0.28,Math Anxiety,AEQ-PA Achievement Emotions Questionnaire for Preadolescent students - Test Version,,,,,Mathematics,
+yes,"Peixoto et al., 2017","Peixoto et al., 2017",,1219,Dev_Group,MA-Maths,,,grade,-0.32,Math Anxiety,AEQ-PA Achievement Emotions Questionnaire for Preadolescent students - Test Version,,,,,Mathematics,
+yes,"Peixoto et al., 2017","Peixoto et al., 2017",,1219,Dev_Group,MA-Maths,,,grade,-0.2,Math Anxiety,AEQ-PA Achievement Emotions Questionnaire for Preadolescent students - Classroom Version,,,,,Mathematics,
+yes,"Peixoto et al., 2017","Peixoto et al., 2017",,1219,Dev_Group,MA-Maths,,,grade,-0.27,Math Anxiety,AEQ-PA Achievement Emotions Questionnaire for Preadolescent students - Classroom Version,,,,,Mathematics,
+yes,"Pekrun et al., 2017","Pekrun et al., 2017_Grade5",,2070,Dev_Group,MA-Maths,,,grade,-0.37,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,
+yes,"Pekrun et al., 2017","Pekrun et al., 2017_Grade6",,2059,Dev_Group,MA-Maths,,,grade,-0.38,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,
+yes,"Pekrun et al., 2017","Pekrun et al., 2017_Grade7",,2397,Dev_Group,MA-Maths,,,grade,-0.37,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,
+yes,"Pekrun et al., 2017","Pekrun et al., 2017_Grade8",,2410,Dev_Group,MA-Maths,,,grade,-0.37,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,
+yes,"Pekrun et al., 2017","Pekrun et al., 2017_Grade9",,2528,Dev_Group,MA-Maths,,,grade,-0.4,Math Anxiety,AEQ-M (Pekrun at al.. 2011),,,,,Mathematics,
+yes,"Perry et al., 2016","Perry et al., 2016",,84,Dev_Group,MA-Maths,,,math_apply,-0.2,Math Anxiety,Self developed ,,,,,Mathematics, New York State Integrated Algebra Regents Examination 
+yes,"Prieto et al., 2007","Prieto et al., 2007_Grade7_8",,411,Dev_Group,MA-Maths,,,math_apply,-0.24,Math Anxiety,MAS,,,,,Mathematics,MT. Test de Matem?ticas
+yes,"Prieto et al., 2007","Prieto et al., 2007_Grade9",,216,Dev_Group,MA-Maths,,,math_apply,-0.29,Math Anxiety,MAS,,,,,Mathematics,MT. Test de Matem?ticas
+yes,"Ramirez et al., 2017","Ramirez et al., 2017",,812,Dev_Group,MA-Maths,,,math_apply,-0.09,Math Anxiety,CMAQ-R,,,,,Mathematics,TheWoodcock?Johnson III 
+yes,"Ramirez et al., 2017","Ramirez et al., 2017",,812,Dev_Group,MA-Maths,,,math_apply,-0.26,Math Anxiety,CMAQ-R,,,,,Mathematics,TheWoodcock?Johnson III 
+yes,"Reali et al., 2016","Reali et al., 2016",,296,Dev_Group,MA-TA,,,math_apply,-0.32,Math anxiety,Abbreviated AMAS,Test Anxiety,CTAS,,,Mathematic,National standardized test ICFES
+yes,"Reali et al., 2016","Reali et al., 2016",,296,Dev_Group,MA-GA,,,math_apply,-0.19,Math anxiety,Abbreviated AMAS,General Anxiety,CMASR-2,,,Mathematic,National standardized test ICFES
+yes,"Reali et al., 2016","Reali et al., 2016_male sample",males,136,Dev_Group,MA-Maths,,,math_apply,-0.08,Math anxiety,Abbreviated AMAS,,,,,Mathematic,National standardized test ICFES
+yes,"Reali et al., 2016","Reali et al., 2016_female sample",females,160,Dev_Group,MA-Maths,,,math_apply,-0.24,Math anxiety,Abbreviated AMAS,,,,,Mathematic,National standardized test ICFES
+yes,"Satake et al., 1995","Satake et al., 1995_male sample",males,80,Dev_Group,MA-Maths,,,grade,-0.27,Math anxiety,MARS-E,,,,,Mathematic,likert scale 1-5
+yes,"Satake et al., 1995","Satake et al., 1995_male sample",males,80,Dev_Group,MA-Maths,,,grade,-0.13,Math anxiety,MARS-E,,,,,Mathematic,likert scale 1-5
+yes,"Satake et al., 1995","Satake et al., 1995_female sample",females,74,Dev_Group,MA-Maths,,,grade,-0.4,Math anxiety,MARS-E,,,,,Mathematic,likert scale 1-5
+yes,"Satake et al., 1995","Satake et al., 1995_female sample",females,74,Dev_Group,MA-Maths,,,grade,-0.35,Math anxiety,MARS-E,,,,,Mathematic,likert scale 1-5
+yes,"Schnell et al., 2013","Schnell et al., 2013",,79,Dev_Group,MA-TA,,,,0.45,Math anxiety,FRA,Test Anxiety,PAF,,,,
+yes,"Schnell et al., 2013","Schnell et al., 2013",,79,Dev_Group,MA-Maths,,,,-0.24,Math anxiety,FRA,,,,,,
+yes,"Schnell et al., 2013","Schnell et al., 2013",,79,Dev_Group,TA-Maths,,,math_apply,-0.31,,,Test Anxiety,PAF,,,,
+yes,"Soni et al., 2017","Soni et al., 2017",,595,Dev_Group,MA-Maths,,,math_apply,-0.7,Math anxiety,MARS,,,,,Matthematic,self-developed
+yes,"Scherer et al., 2015","Scherer et al., 2015",,4686,Dev_Group,MA-Maths,,,math_apply,-0.32,Math anxiety,BFLPE,,,,,Matthematic,PPA
+yes,"Scherer et al., 2015","Scherer et al., 2015",,4686,Dev_Group,MA-Maths,,,math_apply,-0.16,Math anxiety,BFLPE,,,,,Matthematic,CBA
+yes,"Spinath et al., 2010","Spinath et al., 2010_male sample",males,552,Dev_Group,MA-Maths,,,grade,-0.05,Math anxiety,SBI-K ,,,,,Mathematic,
+yes,"Spinath et al., 2010","Spinath et al., 2010_female sample",females,801,Dev_Group,MA-Maths,,,grade,-0.09,Math anxiety,SBI-K ,,,,,Mathematic,
+yes,"Stankov et al., 2012","Stankov et al., 2012",,1727,Dev_Group,MA-Maths,,,math_apply,-0.31,Math anxiety,likert scale 5 point,,,,,Mathematic,Non specified
+yes,"Stankov et al., 2014","Stankov et al., 2014",,598,Dev_Group,MA-Maths,,,math_apply,-0.33,Math anxiety,likert scale 4 point,,,,,Mathematic,self-developed
+yes,"Stoet et al., 2016","Stoet et al., 2016_Group1",,276165,Dev_Group,MA-Maths,,,math_apply,-0.63,Math anxiety,likert scale 4 point,,,,,Mathematic,PISA 2003
+yes,"Stoet et al., 2016","Stoet et al., 2016_Group2",,485490,Dev_Group,MA-Maths,,,math_apply,-0.56,Math anxiety,likert scale 4 point,,,,,Mathematic,PISA 2012
+yes,"Tocci et al., 1991","Tocci et al., 1991_USA sample",,3846,Dev_Group,MA-Maths,,,math_apply,-0.24,Math anxiety,likert scale 5 point,,,,,Mathematic,SIMS
+yes,"Tocci et al., 1991","Tocci et al., 1991_Thailand sample",,3528,Dev_Group,MA-Maths,,,math_apply,-0.14,Math anxiety,likert scale 5 point,,,,,Mathematic,SIMS
+yes,"Van der Beek et al., 2017","Van der Beek et al., 2017",,1014,Dev_Group,MA-Maths,,,math_apply,-0.22,Math anxiety,likert scale 4 point,,,,,Mathematic,PISA 2003 and TIMSS 2007
+yes,"Vukovic et al., 2013a","Vukovic et al., 2013a",,78,Dev_Group,MA-Maths,,,math_apply,-0.22,Math anxiety,likert scale 4 point,,,,,Mathematic,Stanford Diagnostics Mathematics Test?Fourth Edition 
+yes,"Vukovic et al., 2013a","Vukovic et al., 2013a",,78,Dev_Group,MA-Maths,,,math_apply,-0.36,Math anxiety,likert scale 4 point,,,,,Mathematic,Adapted from previous research 
+yes,"Vukovic et al., 2013a","Vukovic et al., 2013a",,78,Dev_Group,MA-Maths,,,math_apply,-0.31,Math anxiety,likert scale 4 point,,,,,Mathematic,KeyMath Diagnostic Assessment? Third Edition 
+yes,"Vukovic et al., 2013b","Vukovic et al., 2013b",,113,Dev_Group,MA-WM,spatial,WM,,-0.08,Math anxiety,likert scale,,,Working memory,SCPT visual matrix subtest,,
+yes,"Vukovic et al., 2013b","Vukovic et al., 2013b",,113,Dev_Group,MA-Maths,,,arithmetic,-0.32,Math anxiety,likert scale,,,,,Mathematic,stanford Diagnostics Mathematics Test?Fourth Edition 
+yes,"Vukovic et al., 2013b","Vukovic et al., 2013b",,113,Dev_Group,MA-Maths,,,math_apply,-0.36,Math anxiety,likert scale,,,,,Mathematic,KeyMath3 and st
+yes,"Vukovic et al., 2013b","Vukovic et al., 2013b",,113,Dev_Group,MA-Maths,,,math_apply,-0.12,Math anxiety,likert scale,,,,,Mathematic,KeyMath3 and story problems task
+yes,"Vukovic et al., 2013b","Vukovic et al., 2013b",,113,Dev_Group,MA-Maths,,,arithmetic,-0.28,Math anxiety,likert scale,,,,,Mathematic,stanford Diagnostics Mathematics Test?Fourth Edition 
+yes,"Vukovic et al., 2013b","Vukovic et al., 2013b",,113,Dev_Group,MA-Maths,,,math_apply,-0.32,Math anxiety,likert scale,,,,,Mathematic,KeyMath3 and st
+yes,"Vukovic et al., 2013b","Vukovic et al., 2013b",,113,Dev_Group,MA-Maths,,,math_apply,-0.11,Math anxiety,likert scale,,,,,Mathematic,KeyMath3 and story problems task
+yes,"Wang et al., 2013","Wang et al., 2013",,514,Dev_Group,MA-GA,,,,0.37,Math anxiety,Revised MARS-E,General Anxiety,Spence Children?s Anxiety Scale ,,,,
+yes,"Wang et al., 2013","Wang et al., 2013",,514,Dev_Group,MA-Maths,,,math_apply,-0.32,Math anxiety,Revised MARS-E,,,,,Mathematic,Woodcock Johnson III Tests of Achievement 
+yes,"Wang et al., 2015","Wang et al., 2015_Study1",,391,Dev_Group,MA-GA,,,,0.38,Math anxiety,MARS-E,General Anxiety,SCAS,,,,
+yes,"Wang et al., 2015","Wang et al., 2015_Study1",,506,Dev_Group,MA-Maths,,,basic_know,-0.07,Math anxiety,MARS-E,,,,,Mathematics,Dots Task
+yes,"Wang et al., 2015","Wang et al., 2015_Study1",,504,Dev_Group,MA-Maths,,,basic_know,-0.19,Math anxiety,MARS-E,,,,,Mathematics,Number line
+yes,"Wang et al., 2015","Wang et al., 2015_Study1",,506,Dev_Group,MA-Maths,,,arithmetic,-0.25,Math anxiety,MARS-E,,,,,Mathematics,Composing and Decomposing Numbers task
+yes,"Wang et al., 2015","Wang et al., 2015_Study1",,505,Dev_Group,MA-Maths,,,arithmetic,-0.23,Math anxiety,MARS-E,,,,,Mathematics,Problem Verification Task
+yes,"Wang et al., 2015","Wang et al., 2015_Study1",,493,Dev_Group,MA-Maths,,,arithmetic,-0.29,Math anxiety,MARS-E,,,,,Mathematics,Woodcock-Johnson III Test of Achievement
+yes,"Wang et al., 2015","Wang et al., 2015_Study1",,506,Dev_Group,MA-Maths,,,arithmetic,-0.33,Math anxiety,MARS-E,,,,,Mathematics,Woodcock-Johnson III Test of Achievement
+yes,"Wang et al., 2015","Wang et al., 2015_Study2",,219,Adult,MA-GA,,,,0.4,Math anxiety,MARS-B,General Anxiety,STAI,,,,
+yes,"Wang et al., 2015","Wang et al., 2015_Study2",,219,Adult,MA-Maths,,,arithmetic,-0.19,Math anxiety,MARS-B,,,,,Mathematics,Problem Verification Task
+yes,"Wang et al., 2018","Wang et al., 2018",,927,Dev_Group,MA-Maths,,,grade,-0.21,Math anxiety,AMAS,,,,,Mathematics,Teacher rates
+yes,"Wang et al., 2018","Wang et al., 2018",,927,Dev_Group,MA-Maths,,,grade,-0.27,Math anxiety,AMAS,,,,,Mathematics,Teacher rates
+yes,"Wu et al., 2014","Wu et al., 2014",,366,Dev_Group,MA-GA,,,,0.12,Math anxiety,SEMA,General Anxiety,CBCL,,,,
+yes,"Wu et al., 2014","Wu et al., 2014",,366,Dev_Group,MA-Maths,,,,-0.38,Math anxiety,SEMA,,,,,Matheatics,WIAT II
+yes,"Wu et al., 2017","Wu et al., 2017",,330,Dev_Group,MA-GA,,,,0.11,MAth anxiety,SEMA,General Anxiety,CBCL,,,,
+yes,"Wu et al., 2017","Wu et al., 2017",,330,Dev_Group,MA-Maths,,,arithmetic,-0.38,Math anxiety,SEMA,,,,,Mathematics,WIAT-II
+yes,"Wu et al., 2017","Wu et al., 2017",,330,Dev_Group,MA-Maths,,,math_apply,-0.23,Math anxiety,SEMA,,,,,Mathematics,WIAT-II
+yes,"Wu et al., 2017","Wu et al., 2017",,330,Dev_Group,MA-WM,verbal,WM,,-0.18,Math anxiety,SEMA,,,Working memory,Counting Recall,,
+yes,"Wu et al., 2017","Wu et al., 2017",,330,Dev_Group,MA-WM,spatial,WM,,-0.21,Math anxiety,SEMA,,,Working memory,Block Recall,,
+yes,"Wu et al., 2017","Wu et al., 2017",,330,Dev_Group,MA-WM,verbal,WM,,-0.14,Math anxiety,SEMA,,,Working memory,Digit Recall,,
+yes,"Wu et al., 2017","Wu et al., 2017",,330,Dev_Group,MA-WM,verbal,WM,,-0.11,Math anxiety,SEMA,,,Working memory,Backword digit Recall,,
+yes,"Yanez-Marquina et al., 2017","Yanez-Marquina et al., 2017",,563,Dev_Group,MA-Maths,,,math_apply,-0.16,Math anxiety,SAMAS,,,,,Mathematics,Standardized-test+PISA
+yes,"Yanez-Marquina et al., 2017","Yanez-Marquina et al., 2017",,563,Dev_Group,MA-Maths,,,math_apply,-0.38,Math anxiety,SAMAS,,,,,Mathematics,Standardized-test+PISA
+yes,"Yanez-Marquina et al., 2017","Yanez-Marquina et al., 2017",,563,Dev_Group,MA-Maths,,,math_apply,-0.37,Math anxiety,SAMAS,,,,,Mathematics,Standardized-test+PISA
+yes,"Yildirim, 2012","Yildirim, 2012",,4855,Dev_Group,GA-Maths,,,math_apply,-0.35,,,General Anxiety,self-developed,,,Mathematics,PISA
+yes,"Williams, 1994","Williams, 1994",,175,Dev_Group,TA-Maths,,,math_apply,-0.33,,,,Test Anxiety,,,Mathematics,ACT (American College Testing Program)
+yes,"Williams, 1994","Williams, 1994",,175,Dev_Group,TA-Maths,,,math_apply,-0.31,,,,Test Anxiety,,,Mathematics,ACT (American College Testing Program)
+yes,"Williams, 1994","Williams, 1994",,175,Dev_Group,MA-Maths,,,math_apply,-0.4,Math anxiety,MAQ,,,,,Mathematics,ACT (American College Testing Program)
+yes,"Williams, 1994","Williams, 1994",,175,Dev_Group,MA-Maths,,,math_apply,-0.23,Math anxiety,MAQ,,,,,Mathematics,ACT (American College Testing Program)
+yes,"Peatcher et al., 2017","Peatcher et al., 2017",,225,Adult,MA-Maths,,,grade,0.33,Math anxiety,R-MARS,,,,,Math,Non specified
+yes,"Peatcher et al., 2017","Peatcher et al., 2017",,225,Adult,MA-Maths,,,grade,0.13,Math anxiety,R-MARS,,,,,Math,Non specified
+yes,"Peatcher et al., 2017","Peatcher et al., 2017",,225,Adult,MA-Maths,,,grade,0.21,Math anxiety,R-MARS,,,,,Math,Non specified
+yes,"Peatcher et al., 2017","Peatcher et al., 2017",,225,Adult,MA-Maths,,,math_apply,-0.13,Math anxiety,R-MARS,,,,,Math,Non specified
+yes,"Peatcher et al., 2017","Peatcher et al., 2017",,225,Adult,MA-Maths,,,math_apply,-0.01,Math anxiety,R-MARS,,,,,Math,Non specified
+yes,"Peatcher et al., 2017","Peatcher et al., 2017",,225,Adult,MA-Maths,,,math_apply,-0.01,Math anxiety,R-MARS,,,,,Math,Non specified
+yes,"Peatcher et al., 2017","Peatcher et al., 2017",,225,Adult,GA-Maths,,,grade,-0.05,,,General Anxiety,STAI,,,Math,Non specified
+yes,"Peatcher et al., 2017","Peatcher et al., 2017",,225,Adult,GA-Maths,,,math_apply,-0.04,,,General Anxiety,STAI,,,Math,Non specified
+yes,"Skaalvik et al., 2018","Skaalvik et al., 2018",,939,Dev_Group,MA-Maths,,,grade,-0.43,Math anxiety,MAS,,,,,Math,Non specified
+yes,"Skagerlund et al., 2018","Skagerlund et al., 2018",,2063,Adult,MA-Maths,,,math_apply,-0.32,Math anxiety,MAS-UK,,,,,Maths,BNT
+yes,"Skagerlund et al., 2018","Skagerlund et al., 2018",,2063,Adult,MA-Maths,,,math_apply,-0.37,Math anxiety,MAS-UK,,,,,Maths,Non specified
+yes,"Putwain et al., 2018","Putwain et al., 2018",,270,Dev_Group,TA-Maths,,,grade,-0.3,,,Test anxiety,Revised Test anxiety scale,,,Maths,Non specified
+yes,"Schilinger et al., 2018","Schilinger et al., 2018",,341,Adult,MA-GA,,,,0.4,Math Anxiety,AMAS-G,,,,,,
+yes,"Schilinger et al., 2018","Schilinger et al., 2018",,341,Adult,MA-TA,,,,0.48,Math Anxiety,AMAS-G,,,,,,
+yes,"Schilinger et al., 2018","Schilinger et al., 2018",,341,Adult,MA-Maths,,,grade,-0.4,Math Anxiety,AMAS-G,,,,,Math,Non specified
+yes,"Schilinger et al., 2018","Schilinger et al., 2018",,341,Adult,MA-Maths,,,arithmetic,-0.24,Math Anxiety,AMAS-G,,,,,Math,Arithmetic fluency test
+yes,"Schilinger et al., 2018","Schilinger et al., 2018",,341,Adult,MA-Maths,,,arithmetic,-0.27,Math Anxiety,AMAS-G,,,,,Math,Arithmetic fluency test
+yes,"Schilinger et al., 2018","Schilinger et al., 2018",,341,Adult,MA-Maths,,,math_apply,-0.41,Math Anxiety,AMAS-G,,,,,Math,M-PA
+yes,"Kabas et al., 2018","Kabas et al., 2018",,466,Dev_Group,MA-Maths,,,math_apply,-0.74,Math Anxiety,MAAS,,,,,Math,DMLUS
+yes,"Araki, 1992","Araki, 1992_male sample",males,148,Dev_Group,TA-Maths,,,grade,-0.26,Test Anxiety,TASC,,,,,Math,Grade
+yes,"Araki, 1992","Araki, 1992_female sample",females,116,Dev_Group,TA-Maths,,,grade,-0.29,Test Anxiety,TASC,,,,,Math,Grade
+yes,"Arens et al., 2017","Arens et al., 2017",,5135,Dev_Group,TA-Maths,,,grade,-0.18,Test Anxiety,Helmke,,,,,Math,
+yes,"Arens et al., 2017","Arens et al., 2017",,5135,Dev_Group,TA-Maths,,,grade,-0.06,Test Anxiety,Hodapp,,,,,Math,Grade
+yes,"Bezzina et al., 2010","Bezzina et al., 2010",,400,Dev_Group,TA-Maths,,,math_apply,-0.44,Test Anxiety,Not reported,,,,,Math,
+yes,"Birenbaum et al., 1993","Birenbaum et al., 1993_male sample",males,99,Dev_Group,TA-Maths,,,arithmetic,0.09,Test Anxiety,RTT,,,,,Math,
+yes,"Birenbaum et al., 1993","Birenbaum et al., 1993_female sample",females,132,Dev_Group,TA-Maths,,,arithmetic,-0.24,Test Anxiety,RTT,,,,,Math,
+yes,"Birenbaum et al., 1993","Birenbaum et al., 1993_male sample",males,99,Dev_Group,TA-Maths,,,arithmetic,-0.2,Test Anxiety,RTT,,,,,Math,
+yes,"Birenbaum et al., 1993","Birenbaum et al., 1993_female sample",females,132,Dev_Group,TA-Maths,,,arithmetic,-0.26,Test Anxiety,RTT,,,,,Math,
+yes,"Bong et al., 2012","Bong et al., 2012",,746,Dev_Group,TA-Maths,,,grade,-0.51,Test Anxiety,MSLQ,,,,,Math,
+yes,"Fonteyne et al., 2017","Fonteyne et al., 2017",,2391,Adult,TA-Maths,,,math_apply,-0.08,Test Anxiety,CTAR,,,,,Math,
+yes,"Hannon et al., 2011","Hannon et al., 2011",,253,Adult,TA-Maths,,,math_apply,-0.33,Test Anxiety,Sarason?s (1978) test anxiety scale,,,,,Math,
+yes,"Hannon et al., 2011","Hannon et al., 2011",,253,Adult,TA-WM,verbal,WM,,-0.2,Test Anxiety,Sarason?s (1978) test anxiety scale,,,,,,
+yes,"Hannon, 2015","Hannon, 2015",,205,Adult,TA-Maths,,,math_apply,-0.31,Test Anxiety,Sarason (1978).,,,,,Math,
+yes,"Haynes et al., 2003","Haynes et al., 2003",,159,Adult,TA-Maths,,,math_apply,-0.07,Test Anxiety,Test Anxiety Inventory (TAI),,,,,Math,
+yes,"Hoferichter et al., 2016","Hoferichter et al., 2016",,399,Dev_Group,TA-Maths,,,grade,-0.08,Test Anxiety,PAF,,,,,Math,Grade
+yes,"Hoferichter et al., 2016","Hoferichter et al., 2016",,399,Dev_Group,TA-Maths,,,grade,-0.23,Test Anxiety,PAF,,,,,Math,Grade
+yes,"Hoferichter et al., 2016","Hoferichter et al., 2016",,399,Dev_Group,TA-Maths,,,grade,-0.23,Test Anxiety,PAF,,,,,Math,Grade
+yes,"Hoferichter et al., 2016","Hoferichter et al., 2016",,399,Dev_Group,TA-Maths,,,grade,-0.38,Test Anxiety,PAF,,,,,Math,Grade
+yes,"Hong, 2002","Hong, 2002",,298,Adult,TA-Maths,,,math_apply,-0.3,Test Anxiety,TAI,,,,,Math,Mathematics ability
+yes,"Hong, 2002","Hong, 2002",,298,Adult,TA-Maths,,,math_apply,-0.36,Test Anxiety,TAI,,,,,Math,Mathematics ability
+yes,"Karjanto et al., 2012","Karjanto et al., 2012_male sample",males,151,Adult,TA-Maths,,,math_apply,-0.17,Test Anxiety,TAI,,,,,Math,Mathematics ability
+yes,"Karjanto et al., 2012","Karjanto et al., 2012_female sample",females,55,Adult,TA-Maths,,,math_apply,-0.01,Test Anxiety,TAI,,,,,Math,Mathematics ability
+yes,"Lichtenfeld et al., 2012","Lichtenfeld et al., 2012_Grade2",,594,Dev_Group,TA-Maths,,,math_apply,-0.37,Test Anxiety,AEQ-S,,,,,Math,one-hour mathematics achievement
+yes,"Lichtenfeld et al., 2012","Lichtenfeld et al., 2012_Grade2",,594,Dev_Group,TA-Maths,,,math_apply,-0.38,Test Anxiety,AEQ-S,,,,,Math,one-hour mathematics achievement
+yes,"Lichtenfeld et al., 2012","Lichtenfeld et al., 2012_Grade2",,594,Dev_Group,TA-Maths,,,grade,-0.31,Test Anxiety,AEQ-S,,,,,Math,Grade
+yes,"Lichtenfeld et al., 2012","Lichtenfeld et al., 2012_Grade2",,594,Dev_Group,TA-Maths,,,grade,-0.26,Test Anxiety,AEQ-S,,,,,Math,Grade
+yes,"Lichtenfeld et al., 2012","Lichtenfeld et al., 2012_Grade3",,595,Dev_Group,TA-Maths,,,math_apply,-0.29,Test Anxiety,AEQ-S,,,,,Math,one-hour mathematics achievement
+yes,"Lichtenfeld et al., 2012","Lichtenfeld et al., 2012_Grade3",,595,Dev_Group,TA-Maths,,,math_apply,-0.24,Test Anxiety,AEQ-S,,,,,Math,one-hour mathematics achievement
+yes,"Lichtenfeld et al., 2012","Lichtenfeld et al., 2012_Grade3",,595,Dev_Group,TA-Maths,,,math_apply,-0.3,Test Anxiety,AEQ-S,,,,,Math,one-hour mathematics achievement
+yes,"Lichtenfeld et al., 2012","Lichtenfeld et al., 2012_Grade3",,595,Dev_Group,TA-Maths,,,grade,-0.32,Test Anxiety,AEQ-S,,,,,Math,Grade
+yes,"Lichtenfeld et al., 2012","Lichtenfeld et al., 2012_Grade3",,595,Dev_Group,TA-Maths,,,grade,-0.27,Test Anxiety,AEQ-S,,,,,Math,Grade
+yes,"Lichtenfeld et al., 2012","Lichtenfeld et al., 2012_Grade3",,595,Dev_Group,TA-Maths,,,grade,-0.35,Test Anxiety,AEQ-S,,,,,Math,Grade
+yes,"Lichtenfeld et al., 2012","Lichtenfeld et al., 2012_Grade3_USA",,163,Dev_Group,TA-Maths,,,grade,-0.24,Test Anxiety,AEQ-S,,,,,Math,Grade
+yes,"Lichtenfeld et al., 2012","Lichtenfeld et al., 2012_Grade3_USA",,163,Dev_Group,TA-Maths,,,grade,-0.14,Test Anxiety,AEQ-S,,,,,Math,Grade
+yes,"Lichtenfeld et al., 2012","Lichtenfeld et al., 2012_Grade3_USA",,163,Dev_Group,TA-Maths,,,grade,-0.2,Test Anxiety,AEQ-S,,,,,Math,Grade
+yes,"Mavilidi et al., 2014","Mavilidi et al., 2014",,117,Dev_Group,TA-Maths,,,grade,-0.2,Test Anxiety,A Greek translation of the cognitive anxiety test questionnaire (Cassady & Johnson. 2002),,,,,Math,Math test
+yes,"Mavilidi et al., 2014","Mavilidi et al., 2014",,117,Dev_Group,TA-Maths,,,math_apply,-0.25,Test Anxiety,A Greek translation of the cognitive anxiety test questionnaire (Cassady & Johnson. 2002),,,,,Math,Math test
+yes,"Metallidou et al., 2007","Metallidou et al., 2007",,263,Dev_Group,TA-Maths,,,math_apply,-0.31,Test Anxiety,,,,,,Math,Grade
+yes,"Mousavi et al., 2008","Mousavi et al., 2008",,536,Dev_Group,TA-Maths,,,grade,-0.12,Test Anxiety,TAI,,,,,Math,Grade
+yes,"Mousavi et al., 2008","Mousavi et al., 2008",,536,Dev_Group,TA-Maths,,,grade,-0.03,Test Anxiety,TAI,,,,,Math,Grade
+yes,"Nelson et al., 2015","Nelson et al., 2015",,50,Adult,TA-WM,verbal,WM,,-0.46,Test Anxiety,TAI,,,,,WM,WISC
+yes,"Nelson et al., 2015","Nelson et al., 2015",,50,Adult,TA-WM,verbal,WM,,-0.26,Test Anxiety,TAI,,,,,WM,WISC
+yes,"Nelson et al., 2015","Nelson et al., 2015",,50,Adult,TA-WM,verbal,WM,,-0.39,Test Anxiety,AMAS-C,,,,,WM,WISC
+yes,"Peng et al., 2014","Peng et al., 2014",,438,Dev_Group,TA-Maths,,,grade,-0.12,Test Anxiety,Self made,,,,,Math,Grade
+yes,"Peng et al., 2014","Peng et al., 2014",,438,Dev_Group,TA-Maths,,,grade,-0.17,Test Anxiety,Self made,,,,,Math,Grade
+yes,"Putwain et al., 2010","Putwain et al., 2010",,244,Dev_Group,TA-Maths,,,math_apply,-0.29,Test Anxiety,RTA,,,,,Math,Math test
+yes,"Putwain et al., 2010","Putwain et al., 2010",,244,Dev_Group,TA-Maths,,,math_apply,-0.15,Test Anxiety,RTA,,,,,Math,Math test
+yes,"Putwain et al., 2010","Putwain et al., 2010",,244,Dev_Group,TA-Maths,,,math_apply,0.01,Test Anxiety,RTA,,,,,Math,Math test
+yes,"Putwain et al., 2010","Putwain et al., 2010",,244,Dev_Group,TA-Maths,,,math_apply,-0.24,Test Anxiety,RTA,,,,,Math,Math test
+yes,"Putwain et al., 2010","Putwain et al., 2010",,244,Dev_Group,TA-Maths,,,math_apply,-0.02,Test Anxiety,RTA,,,,,Math,Math test
+yes,"Putwain et al., 2010","Putwain et al., 2010",,244,Dev_Group,TA-Maths,,,math_apply,-0.28,Test Anxiety,RTA,,,,,Math,Math test
+yes,"Putwain et al., 2011","Putwain et al., 2011",,273,Dev_Group,TA-Maths,,,math_apply,-0.29,Test Anxiety,RTA,,,,,Math,Math test
+yes,"Putwain et al., 2011","Putwain et al., 2011",,273,Dev_Group,TA-Maths,,,math_apply,-0.05,Test Anxiety,RTA,,,,,Math,Math test
+yes,"Putwain et al., 2011","Putwain et al., 2011",,273,Dev_Group,TA-Maths,,,math_apply,-0.11,Test Anxiety,RTA,,,,,Math,Math test
+yes,"Putwain et al., 2011","Putwain et al., 2011",,273,Dev_Group,TA-Maths,,,math_apply,-0.15,Test Anxiety,RTA,,,,,Math,Math test
+yes,"Putwain et al., 2013","Putwain et al., 2013",,123,Dev_Group,TA-Maths,,,math_apply,-0.39,Test Anxiety,Children.s Test Anxiety Scale,,,,,Math,Math test
+yes,"Putwain et al., 2015","Putwain et al., 2015",,705,Dev_Group,TA-Maths,,,math_apply,-0.23,Test Anxiety,RTA,,,,,Math,Math test
+yes,"Putwain et al., 2015","Putwain et al., 2015",,705,Dev_Group,TA-Maths,,,math_apply,-0.24,Test Anxiety,RTA,,,,,Math,Math test
+yes,"Rahafar et al., 2015","Rahafar et al., 2015",,158,Dev_Group,TA-Maths,,,grade,-0.09,Test Anxiety,TAI,,,,,Math,Grade
+yes,"Roick et al., 2017","Roick et al., 2017",,92,Dev_Group,TA-Maths,,,grade,-0.11,Test Anxiety,adjective-based instrument,,,,,Math,Grade
+yes,"Schnell et a., 2013","Schnell et a., 2013",,79,Dev_Group,TA-Maths,,,grade,-0.31,Test Anxiety,PAF,,,,,Math,Grade
+yes,"Schnell et a., 2013","Schnell et a., 2013",,79,Dev_Group,MA-Maths,,,grade,-0.24,Math Anxiety,FRA,,,,,Math,Grade
+yes,"Schnell et a., 2013","Schnell et a., 2013",,79,Dev_Group,MA-TA,,,grade,0.45,,,,,,,,
+no,"Watts, 2011","Watts, 2011",,107,Adult,MA-Maths,,,math_apply,-0.2,Math Anxiety,MARS-S,,,,,Math,Math test
+no,"Kimber, 2009","Kimber, 2009",,29,Dev_Group,MA-Maths,,,math_apply,-0.3,Math Anxiety,MARS-R,,,,,Math,Math test
+no,"Kimber, 2009","Kimber, 2009",,29,Dev_Group,MA-TA,,,,0.65,,,,,,,Math,Math test
+no,"Kimber, 2009","Kimber, 2009",,29,Dev_Group,TA-Maths,,,math_apply,-0.25,Test Anxiety Behavior Scale (STABS),STABS,,,,,Math,Math test
+no,"Field, 2011","Field, 2011",,64,Dev_Group,TA-Maths,,,math_apply,-0.37,,adapted version for TA of STAI,,,,,,
+no,"Allred, 2018","Allred, 2018",,190,Adult,MA-Maths,,,math_apply,-0.38,Math Anxiety,SMARS,,,,,,
+no,"Allred, 2018","Allred, 2018",,190,Adult,MA-Maths,,,math_apply,-0.34,Math Anxiety,SMARS,,,,,,
+no,"Allred, 2018","Allred, 2018",,190,Adult,MA-WM,spatial,WM,,-0.21,Math Anxiety,SMARS,,,,,,
+no,"Allred, 2018","Allred, 2018",,190,Adult,MA-WM,spatial,WM,,-0.19,Math Anxiety,SMARS,,,,,,
+no,"Sheller, 2008","Sheller, 2008_Russian sample",,74,Dev_Group,MA-Maths,,,arithmetc,-0.12,Math Anxiety,MAS,,,,,,
+no,"Sheller, 2008","Sheller, 2008_American_sample",,126,Dev_Group,MA-Maths,,,arithmetc,-0.43,Math Anxiety,MAS,,,,,,
+no,"Tejada, 2011","Tejada, 2011",,28,Adult,MA-Maths,,,arithmetc,-0.36,Math Anxiety,MARS-R,,,,,,
+no,"Pizzie, 2018","Pizzie, 2018",,48,Adult,MA-GA,,,,0.55,Math Anxiety,MARS,General Anxiey,STAI,,,,
+no,"Hodge, 1997","Hodge, 1997",,55,Adult,TA-Maths,,,math_apply,0.04,Test Anxiety,TAI,,,,,,
+no,"Merritt, 2011","Merritt, 2011",,306,Dev_Group,MA-Maths,,,math_apply,-0.22,Math Anxiety,MARS-A,,,,,,
+no,"Bagley, 2015","Bagley, 2015_Math 990 sample",,423,Adult,MA-Maths,,,grade,-0.08,Math Anxiety,AMAS,,,,,,
+no,"Bagley, 2015","Bagley, 2015_Math 1010 sample",,1068,Adult,MA-Maths,,,grade,-0.14,Math Anxiety,AMAS,,,,,,
+no,"Bagley, 2015","Bagley, 2015_Math 1050 sample",,742,Adult,MA-Maths,,,grade,-0.24,Math Anxiety,AMAS,,,,,,
+no,"Ganley, 2011","Ganley, 2011_Grade 4",,71,Dev_Group,GA-Maths,,,math_apply,-0.11,,,GA,,,,,
+no,"Ganley, 2011","Ganley, 2011_Grade 8",,107,Dev_Group,GA-Maths,,,math_apply,-0.4,,,GA,,,,,
+no,"Ganley, 2011","Ganley, 2011_Grade 12",,147,Dev_Group,GA-Maths,,,math_apply,-0.32,,,GA,,,,,
+no,"Ganley, 2011","Ganley, 2011_Undergraduate",,90,Adult,GA-Maths,,,math_apply,-0.48,,,GA,,,,,
+no,"Ganley, 2011","Ganley, 2011_Undergraduate",,90,Adult,GA-Maths,,,math_apply,-0.36,,,GA,,,,,
+no,"Ganley, 2011","Ganley, 2011_Undergraduate",,90,Adult,WM-Maths,verbal,WM,math_apply,0.19,,,,,,,,
+no,"Ganley, 2011","Ganley, 2011_Undergraduate",,90,Adult,WM-Maths,spatial,WM,math_apply,0.48,,,,,,,,
+no,"Barnett, 2012","Barnett, 2012",,153,Dev_Group,TA-Maths,,,math_apply,-0.19,Test Anxiety,MSLQ adapt.,,,,,,
+no,"Barnett, 2012","Barnett, 2012",,153,Dev_Group,TA-Maths,,,grade,-0.25,Test Anxiety,MSLQ adapt.,,,,,,
+no,"Gibson, 2016","Gibson, 2016",,214,Adult,MA-Maths,,,grade,-0.27,Math Anxiety,MAS-R,,,,,,
+no,"Tan, 2010","Tan, 2010",males,238,Dev_Group,GA-Maths,,,math_apply,0.16,,,GA,MASC,,,,
+no,"Tan, 2010","Tan, 2010",males,238,Dev_Group,WM-Maths,verbal,,math_apply,0.4,,,GA,MASC,,,,
+no,"Savage, 2016","Savage, 2016_African American sample",,47,Dev_Group,MA-Maths,,,math_apply,-0.36,Math Anxiety,MAS,,,,,,
+no,"Savage, 2016","Savage, 2016_Caucasian sample",,57,Dev_Group,MA-Maths,,,math_apply,-0.26,Math Anxiety,MAS,,,,,,
+no,"Townsend, 1991","Townsend, 1991",,112,Adult,MA-Maths,,,grade,-0.27,Math Anxiety,MARS,,,,,,
+no,"Durette, 2011","Durette, 2011",,147,Adult,MA-Maths,,,math_apply,-0.35,Math Anxiety,sMARS,,,,,,WRAT 3
+no,"Durette, 2011","Durette, 2011",,147,Adult,MA-WM,verbal,WM,,-0.12,Math Anxiety,sMARS,,,Operation span,,,
+no,"Durette, 2011","Durette, 2011",,147,Adult,MA-WM,verbal,WM,,-0.07,Math Anxiety,sMARS,,,Reading span,,,
+no,"Helming, 2013","Helming, 2013",,662,Adult,MA-Maths,,,grade,-0.26,Math Anxiety,MARS,,,,,,Final exam score
+no,"Iossi, 2009","Iossi, 2009_bilingual",,257,Adult,MA-Maths,,,grade,-0.1,Math Anxiety,AMAS,,,,,,Final exam score
+no,"Iossi, 2009","Iossi, 2009_monolingual",,361,Adult,MA-Maths,,,grade,-0.25,Math Anxiety,AMAS,,,,,,Final exam score
+no,"Skybrook, 2008","Skybrook, 2008",,44,Adult,WM-Maths,verbal,WM,arithmetic,0.09,,,,,Working memory,WAIS-III WM index,,WJ-R
+no,"Skybrook, 2008","Skybrook, 2008",,44,Adult,WM-Maths,verbal,WM,math_apply,0.64,,,,,Working memory,WAIS-III WM index,,WJ-R
+no,"Skybrook, 2008","Skybrook, 2008",,44,Adult,MA-Maths,,,,-0.26,Math Anxiety,MARS,,,,,,WJ-R
+no,"Skybrook, 2008","Skybrook, 2008",,44,Adult,MA-WM,verbal,WM,,-0.17,Math Anxiety,MARS,,,Working memory,WAIS-III WM index,,
+no,"Siebers, 2015","Siebers, 2015",,381,Dev_Group,MA-Maths,,,,-0.39,Math Anxiety,MAQ,,,,,,TCAP
+no,"Chang, 2017","Chang, 2017_Study1_SA",,41,Adult,MA-Maths,,,arithmetic,0.03,Math Anxiety,sMARS,,,,,,
+no,"Chang, 2017","Chang, 2017_Study1_SA",,41,Adult,MA-Maths,,,arithmetic,-0.03,Math Anxiety,sMARS,,,,,,
+no,"Chang, 2017","Chang, 2017_Study1_LA",,44,Adult,MA-Maths,,,arithmetic,-0.22,Math Anxiety,sMARS,,,,,,
+no,"Chang, 2017","Chang, 2017_Study1_LA",,44,Adult,MA-Maths,,,arithmetic,-0.16,Math Anxiety,sMARS,,,,,,
+no,"Chang, 2017","Chang, 2017_Study2_SA",,60,Adult,MA-Maths,,,arithmetic,-0.32,Math Anxiety,sMARS,,,,,,
+no,"Chang, 2017","Chang, 2017_Study2_SA",,60,Adult,MA-Maths,,,arithmetic,-0.31,Math Anxiety,sMARS,,,,,,
+no,"Chang, 2017","Chang, 2017_Study2_LA",,60,Adult,MA-Maths,,,arithmetic,-0.28,Math Anxiety,sMARS,,,,,,
+no,"Chang, 2017","Chang, 2017_Study2_LA",,60,Adult,MA-Maths,,,arithmetic,-0.41,Math Anxiety,sMARS,,,,,,
+no,"Solazzo, 2007","Solazzo, 2007",,131,Dev_Group,MA-Maths,,,,-0.37,Math Anxiety,MARS-E,,,,,,WJ-III
+no,"Solazzo, 2007","Solazzo, 2007",,131,Dev_Group,MA-Maths,,,arithmetic,-0.35,Math Anxiety,MARS-E,,,,,,WJ-III
+no,"Solazzo, 2007","Solazzo, 2007",,131,Dev_Group,MA-Maths,,,math_apply,-0.29,Math Anxiety,MARS-E,,,,,,WJ-III
+no,"Solazzo, 2007","Solazzo, 2007",,131,Dev_Group,WM-Maths,verbal,STM,,0.42,,,,,Working memory,WJ-III-COG,,WJ-III
+no,"Solazzo, 2007","Solazzo, 2007",,131,Dev_Group,WM-Maths,verbal,STM,arithmetic,0.35,,,,,Working memory,WJ-III-COG,,WJ-III
+no,"Solazzo, 2007","Solazzo, 2007",,131,Dev_Group,WM-Maths,verbal,STM,math_apply,0.48,,,,,Working memory,WJ-III-COG,,WJ-III
+no,"Solazzo, 2007","Solazzo, 2007",,131,Dev_Group,MA-WM,verbal,STM,,-0.14,Math Anxiety,MARS-E,,,Working memory,WJ-III-COG,,
+no,"Henry, 2017","Henry, 2017",,103,Dev_Group,MA-WM,verbal,WM,,-0.34,Math Anxiety,sMARS,,,Working memory,Op.Span task and Read.Span task combined,,
+no,"Henry, 2017","Henry, 2017",,103,Dev_Group,MA-Maths,,,arithmetic,-0.2,Math Anxiety,sMARS,,,,,,Ad hoc 6 subtractions
+no,"Henry, 2017","Henry, 2017",,103,Dev_Group,WM-Maths,verbal,WM,arithmetic,0.47,,,,,Working memory,Op.Span task and Read.Span task combined,,Ad hoc 6 subtractions
+no,"Wright, 2017","Wright, 2017",,59,Dev_Group,MA-Maths,,,,-0.54,Math Anxiety,MARS-E and SEMA,,,,,,WJ-III
+no,"Wright, 2017","Wright, 2017",,59,Dev_Group,MA-WM,verbal,STM,,-0.42,Math Anxiety,MARS-E and SEMA,,,Working memory,WJ-III-COG Numbers reversed subtest,,
+no,"Wright, 2017","Wright, 2017",,59,Dev_Group,WM-Maths,verbal,STM,,0.55,,,,,Working memory,WJ-III-COG Numbers reversed subtest,,WJ-III
+no,"Dutko, 2015","Dutko, 2015",,174,Dev_Group,MA-Maths,,,arithmetic,-0.32,Math Anxiety,MASC,,,,,,GCRCT
+no,"Dutko, 2015","Dutko, 2015",,174,Dev_Group,MA-Maths,,,arithmetic,-0.15,Math Anxiety,MASC,,,,,,Aimsweb fact fluency
+no,"Dutko, 2015","Dutko, 2015",,174,Dev_Group,MA-Maths,,,arithmetic,-0.35,Math Anxiety,MASC,,,,,,Aimsweb ECBM

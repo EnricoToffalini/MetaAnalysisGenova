@@ -1,0 +1,153 @@
+---
+title: "Meta-analysis of Cohen's d - From structuring the dataset to (not actually so) basic analyses"
+author: "Enrico Toffalini"
+format: 
+  html:
+    embed-resources: true
+include-before:
+  - "<img src='Figures/psicostat_logo.png' style='width:75px; height:auto; display:block;margin:0 auto 20px;' alt='Logo'>"
+---
+
+## Dataset for a meta-analysis of a Cohen's d / Standardized Mean Difference
+
+```{r, include=F, echo=F, message=F, warning=F}
+set.seed(1)
+nStudies = 20
+idStudy = 1:nStudies
+rIntStudy = rnorm(nStudies,0,.14)
+dosage = round(runif(nStudies,5,25))
+nmin = 8; nmax = 120
+true_eff = 0.20 + dosage*0.04 + rIntStudy
+df = data.frame(StudyID=idStudy, yearPub=round(runif(nStudies,2000,2024)), N_TG=NA, M_TG=NA, SD_TG=NA, N_CG=NA, M_CG=NA, SD_CG=NA,weeks=dosage)
+
+for(i in 1:nrow(df)){
+  M = runif(1,0,100)
+  SD = runif(1,0.8,1.1)*M/10
+  nc = round(runif(1,nmin,nmax))
+  cg = rnorm(nc,M,SD)
+  nt = round(nc+runif(1,0,3))
+  tg = rnorm(nt,M+SD*true_eff[i],SD)
+  df$N_CG[i] = nc; df$M_CG[i] = round(mean(cg),2); df$SD_CG[i] = round(sd(cg),2)
+  df$N_TG[i] = nt; df$M_TG[i] = round(mean(tg),2); df$SD_TG[i] = round(sd(tg),2)
+}
+```
+
+Here is an example of a small dataset for meta-analyzing a Standardized Mean Difference (Cohen's d). Data from `r length(levels(as.factor(idStudy)))` studies is reported. This may represent on the efficacy of a treatment (for simplicity here considering only the post-test scores) or on any other case involving comparing mean scores. "yearPub" and "weeks" might be moderators of interest.
+
+```{r, echo=F, message=F, warning=F}
+print(df, row.names=FALSE)
+```
+
+#### 1. Compute the effect sizes 
+
+Typically, adequate estimates of Standardized Mean Differences are not already reported in the articles, so you have to compute them yourself. Luckily, they can be computed from descriptive statistics that are generally reported (N, M, SD).
+
+Since it is very clear that different studies used completely different instruments (note the variability across descriptive statistics), effect size **must** be standardized. Also, since some studies present very small samples, Hedges' correction of Cohen's d (Hedges' g is preferred). Luckily, the "`measure="SMD"`" argument in the "`escalc`" function of the "`metafor`" package already applies Hedges' correction for small samples.
+
+```{r, echo=F, message=F, warning=F}
+library(metafor)
+
+df = escalc(measure="SMD", n1i=N_TG, m1i=M_TG, sd1i=SD_TG, n2i=N_CG, m2i=M_CG, sd2i=SD_CG, data=df)
+```
+
+```{r, echo=F, message=F, warning=F}
+print(df, row.names=FALSE)
+```
+
+#### 2. Intercept-only model 
+
+Traditionally, a first good step is to test the "intercept-only model". This computes nothing but a meta-analytic "weighted average", plus the estimated heterogeneity (unless you set "`method="EE"`" for a fixed-effects [Equal-Effects] model, which is generally suboptimal).
+
+Just doing this is very simple:
+
+```{r, message=F, warning=F}
+fit0 = rma(yi, vi, data=df)
+
+summary(fit0)
+```
+
+Any comment about...
+
+... the overall mean effect?
+
+... the heterogeneity? 
+
+Lastly, let's have a look at the forest plot:
+
+```{r, message=F, warning=F}
+par(mar=c(5,0,0,0))
+
+forest(fit0, header=T)
+```
+
+
+#### 3. Testing moderator(s)
+
+Would you proceed to test moderators in this case? why?
+
+Now let's fit a few alternative models with "moderators". Practically, moderators are just linear predictors of the effect size. They are often called "moderators" instead of just "predictors" because the dependent variable is an effect size instead of a score (e.g., if you "predict" a SMD you are practically saying that this predictor "moderates" the effect of Group -> Score).
+
+These may be some alternative models including moderators:
+
+```{r}
+fit1 = rma(yi, vi, mods=~weeks+yearPub, data=df)
+fit2 = rma(yi, vi, mods=~yearPub, data=df)
+fit3 = rma(yi, vi, mods=~weeks, data=df)
+```
+
+First, let's see whether adding both moderators "in block" improves the model (compared to the original intercept-only model). We need to set "`refit=TRUE`" because only models fitted with Maximum Likelihood can be directly compared, while models fitted with Restricted Maximum Likelihood (which is the default) cannot be directly compared.
+
+```{r}
+anova(fit0, fit1, refit=T)
+```
+
+"`Full`" model means the one with **more** parameters (i.e., the one including the predictors/moderators). "`Reduced`" model measn the one with **less** parameters (i.e., the one including no predictors/moderators, or fewer of them).
+
+After having established that entering moderators contributes to meaningfully explain heterogeneity (*BTW, how much?*), we can see whether each of them is "significant" when taken alone. So, we separately remove them from the "full" model. IMPORTANT: this procedure is just one among many possible alternatives! You may proceed to test moderators in the exact same way as you would proceed when testing predictors in any linear regression models! 
+
+```{r}
+anova(fit1, fit2, refit=T)
+```
+
+In the above comparison, we tested "`fit2`" (without "`weeks`") against "`fit1`" (with both "`weeks`" and "`yearPub`"). Any comment?
+
+```{r}
+anova(fit1, fit3, refit=T)
+```
+
+In the above comparison, we tested "`fit3`" (without "`pubYear`") against "`fit1`" (with both "`weeks`" and "`yearPub`"). Any comment?
+
+Now, let's see the summary of the final "best-fitting" model:
+
+```{r}
+summary(fit3)
+```
+
+Any comment about...
+
+... the overall mean effect? (is it still there?!)
+
+... the meaning of the "`weeks`" coefficient?
+
+... the (residual) heterogeneity? 
+
+\
+
+If your model is not too complex and especially if you moderators are quantitative, showing the regression plot might be a good idea:
+
+```{r}
+regplot(fit3)
+```
+
+\
+
+And what about the forest plot now?
+
+```{r, message=F, warning=F}
+par(mar=c(5,0,0,0))
+
+forest(fit3, header=T)
+```
+
+
+

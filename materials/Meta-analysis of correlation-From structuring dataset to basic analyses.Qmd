@@ -1,0 +1,143 @@
+---
+title: "Meta-analysis of Correlation - From structuring the dataset to (not actually so) basic analyses"
+author: "Enrico Toffalini"
+format: 
+  html:
+    embed-resources: true
+include-before:
+  - "<img src='Figures/psicostat_logo.png' style='width:75px; height:auto; display:block;margin:0 auto 20px;' alt='Logo'>"
+---
+
+## Dataset for a meta-analysis of a correlation coefficient
+
+```{r, include=F, echo=F, message=F, warning=F}
+set.seed(0)
+library(psych)
+nStudies = 10
+nSamples = 15
+weights = runif(nStudies,0.9,1.1)
+idStudy = colSums(rmultinom(nSamples,1,prob=weights)*(1:nStudies))
+idStudy = idStudy[order(idStudy)]
+idStudy = as.numeric(as.factor(idStudy))
+rIntStudy = rep(NA,length(idStudy))
+idSample = rep(NA,length(idStudy))
+rIntSample = rnorm(length(idStudy),0,.1)
+yearPub = rep(NA,length(idStudy))
+lvl = levels(as.factor(idStudy))
+for(i in 1:length(lvl)){
+  rIntStudy[idStudy==lvl[i]] = rnorm(1,0,.2)
+  yearPub[idStudy==lvl[i]] = round(runif(1,2006,2024))
+  idSample[idStudy==lvl[i]] = paste0(lvl[i],"_",1:sum(idStudy==lvl[i]))
+}
+true_eff = 0.20 + rIntSample + rIntStudy
+n = round(runif(length(idSample),40,500))
+eff = true_eff + rnorm(length(n),0,sqrt(1/(n-3)))
+corr = round(fisherz2r(eff),3)
+df = data.frame(StudyID=idStudy,yearPub=yearPub,SampleID=idSample,EffID=1:length(idStudy),corr=corr,n=n)
+df2 = df
+```
+
+Here is an example of a small meta-analysis dataset coding effect sizes (correlations) from `r length(levels(as.factor(idStudy)))` studies encompassing a total of `r length(levels(as.factor(idSample)))` samples. 
+
+```{r, echo=F, message=F, warning=F}
+print(df, row.names=FALSE)
+```
+
+*Little but extremely common complication*: Some studies include more than one sample. Luckily, there is a single effect size for each sample (so `SampleID` and `EffID` are practically redundant here). If there were multiple effect sizes for the same sample, you might consider preliminarily aggregating them (unless to-be-aggregated effects are associated with different levels of a moderator of interest, in which case you should keep them separate and add an additional level in a multilevel model; note that this complicates everything a bit because you need to account for correlated sampling error when entering multiple effect sizes from a same group of subjects).
+
+- Step 1: Converting all correlations to Fisher's z (good for normalizing the distribution, making the variances independent from the effect size, and simplifying subsequent computations):
+
+```{r, message=F, warning=F}
+library(psych)
+df$eff = fisherz(df$corr)
+```
+
+```{r, echo=F, message=F, warning=F}
+print(df, row.names=FALSE)
+```
+
+- Step 2: Compute the effect size variances using the analytical formula:
+
+```{r, message=F, warning=F}
+library(psych)
+df$vi = 1 / (df$n - 3)
+```
+
+```{r, echo=F, message=F, warning=F}
+print(df, row.names=FALSE)
+```
+
+Actually, you could directly use a built-in function named "`escalc`" from the "`metafor`" package itself:
+
+```{r, message=F, warning=F}
+library(metafor)
+escalc(measure="ZCOR", ri=corr, ni=n, data=df2)
+```
+
+#### Fitting the meta-analytic model
+
+Now, let's proceed with a simple meta-analytic model... well, not so simple, since it's random-effects and multilevel!
+
+```{r, message=F, warning=F}
+fit = rma.mv(eff, vi, random =~ 1|StudyID/SampleID, data = df)
+summary(fit)
+```
+
+Heterogeneity across effect sizes is quantified by the two "`sigma`". The first "`sigma`" represents the estimated heterogeneity across studies, often reported as $\tau$, the second "`sigma`" represents the estimated heterogeneity across samples/effect sizes (within studies), often reported as $\omega$.
+
+#### Forest plot
+
+Now let's have a look at the forest plot:
+
+```{r, message=F, warning=F}
+forest(fit, 
+       slab=paste0("Study",StudyID," - Sample",SampleID), 
+       header=T,
+       transf=psych::fisherz2r,
+       xlab="Pearson's r")
+```
+
+#### Funnel plot
+
+Routinely, funnel plot is reported for having a look at the distribution of effect sizes while simultaneously considering their variances. This may be the basis for applying methods for checking for publication bias, such as the "trim-and-fill" method... but note that trim-and-fill should NOT be used for multilevel models (as in this case) because it fails to account for the real (multilevel) structure of dependencies across effect sizes. 
+
+```{r, message=F, warning=F}
+funnel(fit,
+       xlab="Fisher's z")
+```
+
+Here is a better version of the funnel plot with a meta-regression that takes into account the multilevel structure of the data:
+
+```{r, message=F, warning=F}
+# devtools::install_github("enricotoffalini/toffee")
+library(ggplot2)
+toffee::funnelT(fit, petpeese="petpeese")
+```
+
+#### Meta-regression, just for fun
+
+Let's add publication year (numerical) as a possible moderator:
+
+```{r, message=F, warning=F}
+fit1 = rma.mv(eff, vi, random =~ 1|StudyID/SampleID, mods =~ yearPub, data = df)
+summary(fit1)
+```
+
+Comments? What would you say about:
+
+- Have the heterogeneity estimates ("`sigma`") changed? (if moderators are useful, heterogeneity should be reduced)
+
+- How do you establish the relevance of the moderators?
+
+- How do you interpret the coefficients in "`Model Results`"?
+
+Finally, here is the easiest way for plotting meta-regression:
+
+```{r, message=F, warning=F}
+regplot(fit1)
+```
+
+
+
+
+

@@ -1,0 +1,63 @@
+---
+title: "Current teaching: META-ANALYSIS IN R"
+subtitle: "July 8, 2024"
+---
+
+---------------------------------------------------
+
+This webpage is a collection of resources (links, slides, data, and R code) for the one-day seminar on 'Meta-analysis in R' conducted by Enrico Toffalini on July 8, 2024, for PhD students in Social Sciences at the University of Genova.
+
+---------------------------------------------------
+
+## Slides
+
+- Understanding effect sizes: from [simple (correlations, cohen's d)](https://www.memoryandlearninglab.it/wp-content/uploads/2024/02/Intro-effect-size4.html) to [complex (mixed models, glm/glmer)](https://www.memoryandlearninglab.it/wp-content/uploads/2024/02/Lmer-and-glm-effect-size2.html)
+
+- [Understanding the variance of effect sizes](materials/Understanding effect size variance.html)
+
+- [General introduction to meta-analysis](https://stat-teaching.github.io/metasimulation/slides/02-intro-meta-analysis/intro-meta-analysis.html#/title-slide) (by Gambarota & Altoè)
+
+- [Understanding heterogeneity in meta-analysis with examples](materials/Understanding heterogeneity.html)
+
+- [Meta-analyzing Correlations: From structuring the dataset to (not actually so) basic analyses](materials/Meta-analysis of correlation-From structuring dataset to basic analyses.html) 
+
+- [Meta-analyzing SMD / Cohen's d: From structuring the dataset to (not actually so) basic analyses](materials/Meta-analysis of Cohens d-From structuring dataset to basic analyses.html) 
+
+- [Multilevel models in meta-analysis](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/multilevel-ma.html) (by Harrer)
+
+---------------------------------------------------
+
+## Exercises
+
+- [Exercise 1: Simulated dataset](https://github.com/EnricoToffalini/teaching/tree/main/materials/Exercise%20Simulated%20dataset)
+
+- [Exercise 2: Anxiety and Math performance](https://github.com/EnricoToffalini/teaching/tree/main/materials/Exercise%20Anxiety%20Math%20Performance) open and publicly shared dataset for the article by [Caviola et al. (2022)](https://link.springer.com/article/10.1007/s10648-021-09618-5)
+
+- [Exercise 3: Dyslexia treatment efficacy](https://github.com/EnricoToffalini/teaching/tree/main/materials/Exercise%20Dyslexia%20treatment) open and publicly shared dataset for the article by [Toffalini et al. (2021)](https://link.springer.com/article/10.3758/s13428-021-01549-x)
+
+---------------------------------------------------
+
+## Resources
+
+#### Books
+
+- Borenstein, M., Hedges, L. V., Higgins, J. P. T., & Rothstein, H. R. (2009). Introduction to Meta-Analysis. [`https://doi.org/10.1002/9780470743386`](https://doi.org/10.1002/9780470743386)
+
+#### Websites
+
+- [`metasimulation`](https://stat-teaching.github.io/metasimulation/): Great series of slides and other resources on meta-analyses and related topics by *Filippo Gambarota* and *Gianmarco Altoè* (University of Padova).
+
+- [Mathias Harrer: Doing Meta-Analysis in R](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/) a fabulous website covering virtually all relevant meta-analysis-related topics in the form of a hands-on guide.
+
+- [`metafor`](https://www.metafor-project.org/doku.php/metafor): website of reference for the famous `metafor` package, with lots of examples, pages, and code.
+
+- [`Viechtbauer`](https://www.wvbauer.com/doku.php/home): personal website of *Wolfgang Viechtbauer* (i.e., the mythological creator of the "metafor" package)
+
+#### Github repositories
+
+- [`metasimulation github`](https://github.com/stat-teaching/metasimulation): all materials for the above "metasimulation" website (by Gambarota & Altoè)
+
+- [`metafor github`](https://github.com/wviechtb/metafor): the whole legendary "metafor" package on github, with lots of code and documentation
+
+---------------------------------------------------
+
