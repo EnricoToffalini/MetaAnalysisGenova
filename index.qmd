@@ -47,9 +47,11 @@ Questions that will be addressed:
 
 - [Exercise 1: Simulated dataset](https://github.com/EnricoToffalini/teaching/tree/main/materials/Exercise%20Simulated%20dataset)
 
-- [Exercise 2: Anxiety and Math performance](https://github.com/EnricoToffalini/teaching/tree/main/materials/Exercise%20Anxiety%20Math%20Performance) open and publicly shared dataset for the article by [Caviola et al. (2022)](https://link.springer.com/article/10.1007/s10648-021-09618-5)
+- [Exercise 2: Simulated dataset, more complex, with MLMA and moderators](https://github.com/EnricoToffalini/teaching/tree/main/materials/Exercise%20Simulated%20Multilevel%20Moderators%20Metaanalysis%20dataset)
 
-- [Exercise 3: Dyslexia treatment efficacy](https://github.com/EnricoToffalini/teaching/tree/main/materials/Exercise%20Dyslexia%20treatment) open and publicly shared dataset for the article by [Toffalini et al. (2021)](https://link.springer.com/article/10.3758/s13428-021-01549-x)
+- [Exercise 2: (real shared dataset) Anxiety and Math performance](https://github.com/EnricoToffalini/teaching/tree/main/materials/Exercise%20Anxiety%20Math%20Performance) open and publicly shared dataset for the article by [Caviola et al. (2022)](https://link.springer.com/article/10.1007/s10648-021-09618-5)
+
+- [Exercise 3: (real shared dataset) Dyslexia treatment efficacy](https://github.com/EnricoToffalini/teaching/tree/main/materials/Exercise%20Dyslexia%20treatment) open and publicly shared dataset for the article by [Toffalini et al. (2021)](https://link.springer.com/article/10.3758/s13428-021-01549-x)
 
 ---------------------------------------------------
 

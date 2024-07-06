@@ -11,21 +11,21 @@ include-before:
 ## Dataset for a meta-analysis of a Cohen's d / Standardized Mean Difference
 
 ```{r, include=F, echo=F, message=F, warning=F}
-set.seed(1)
+set.seed(0)
 nStudies = 20
 idStudy = 1:nStudies
-rIntStudy = rnorm(nStudies,0,.14)
+rIntStudy = rnorm(nStudies,0,.16)
 dosage = round(runif(nStudies,5,25))
-nmin = 8; nmax = 120
+nmin = 9; nmax = 120
 true_eff = 0.20 + dosage*0.04 + rIntStudy
-df = data.frame(StudyID=idStudy, yearPub=round(runif(nStudies,2000,2024)), N_TG=NA, M_TG=NA, SD_TG=NA, N_CG=NA, M_CG=NA, SD_CG=NA,weeks=dosage)
+df = data.frame(StudyID=idStudy, yearPub=round(runif(nStudies,2002,2024)), N_TG=NA, M_TG=NA, SD_TG=NA, N_CG=NA, M_CG=NA, SD_CG=NA,weeks=dosage)
 
 for(i in 1:nrow(df)){
   M = runif(1,0,100)
   SD = runif(1,0.8,1.1)*M/10
   nc = round(runif(1,nmin,nmax))
   cg = rnorm(nc,M,SD)
-  nt = round(nc+runif(1,0,3))
+  nt = round(nc+runif(1,-2,3))
   tg = rnorm(nt,M+SD*true_eff[i],SD)
   df$N_CG[i] = nc; df$M_CG[i] = round(mean(cg),2); df$SD_CG[i] = round(sd(cg),2)
   df$N_TG[i] = nt; df$M_TG[i] = round(mean(tg),2); df$SD_TG[i] = round(sd(tg),2)
@@ -85,7 +85,7 @@ forest(fit0, header=T)
 
 Would you proceed to test moderators in this case? why?
 
-Now let's fit a few alternative models with "moderators". Practically, moderators are just linear predictors of the effect size. They are often called "moderators" instead of just "predictors" because the dependent variable is an effect size instead of a score (e.g., if you "predict" a SMD you are practically saying that this predictor "moderates" the effect of Group -> Score).
+Let's fit a few alternative models with moderators. Practically, "moderators" are just (linear) predictors of the effect size. They are generally called "moderators" rather than "predictors" because the dependent variable is an effect size, not a score (if you "predict" a SMD you are practically saying that this predictor "moderates" the effect of Group -> Score).
 
 These may be some alternative models including moderators:
 
@@ -109,15 +109,15 @@ After having established that entering moderators contributes to meaningfully ex
 anova(fit1, fit2, refit=T)
 ```
 
-In the above comparison, we tested "`fit2`" (without "`weeks`") against "`fit1`" (with both "`weeks`" and "`yearPub`"). Any comment?
+In the above comparison, we tested "`fit1`" (with both "`weeks`" and "`yearPub`") against "`fit2`" (with only "`yearPub`"). Any comment?
 
 ```{r}
 anova(fit1, fit3, refit=T)
 ```
 
-In the above comparison, we tested "`fit3`" (without "`pubYear`") against "`fit1`" (with both "`weeks`" and "`yearPub`"). Any comment?
+In the above comparison, we tested "`fit1`" (with both "`weeks`" and "`yearPub`") against "`fit3`" (with only "`weeks`"). Any comment?
 
-Now, let's see the summary of the final "best-fitting" model:
+Now, let's see the **summary of the final "best-fitting" model** (note that some parameters may differ from those shown via the "`anova`" comparisons, because those were fitted via "ML", while the original model is fitted via "REML"):
 
 ```{r}
 summary(fit3)

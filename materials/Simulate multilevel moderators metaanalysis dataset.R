@@ -1,0 +1,89 @@
+
+#######################################
+
+rm(list=ls())
+library(MASS)
+library(metafor)
+library(psych)
+
+#######################################
+
+set.seed(0)
+library(psych)
+nStudies = 200
+nEffs = 240
+weights = runif(nStudies,0.9,1.1)
+idStudy = colSums(rmultinom(nEffs,1,prob=weights)*(1:nStudies))
+idStudy = idStudy[order(idStudy)]
+idStudy = as.numeric(as.factor(idStudy))
+rIntStudy = rep(NA,length(idStudy))
+idEff = 1:length(idStudy)
+rIntEff = rnorm(length(idStudy),0,.1)
+yearPub = rep(NA,length(idStudy))
+georegions = c("NorthAmerica","Europe","Asia","Africa","SouthAmerica")
+geoRegion = rep(NA,length(idStudy))
+meanAge = rep(NA,length(idStudy))
+lvl = levels(as.factor(idStudy))
+n1 = rep(NA,length(idStudy))
+n2 = rep(NA,length(idStudy))
+for(i in 1:length(lvl)){
+  rIntStudy[idStudy==lvl[i]] = rnorm(1,0,.2)
+  yearPub[idStudy==lvl[i]] = round(runif(1,1994,2024))
+  geoRegion[idStudy==lvl[i]] = sample(georegions,1)
+  meanAge[idStudy==lvl[i]] = round(runif(1,7,17),1)
+  n1[idStudy==lvl[i]] = round(runif(1,12,150))
+  n2[idStudy==lvl[i]] = n1[idStudy==lvl[i]] + round(runif(1,-3,3))
+}
+tasktypes = c("Simple","Complex")
+taskType = sample(tasktypes,length(idStudy),replace=T)
+taskmodalities = c("Verbal","Visual")
+taskModality = sample(taskmodalities,length(idStudy),replace=T)
+for(i in 1:length(taskType)){
+  if(meanAge[i]<=12 & rbinom(1,1,.7)) taskType[i] = "Simple"
+  if(meanAge[i]>12 & rbinom(1,1,.7)) taskType[i] = "Complex"
+}
+true_eff = 0.30 + scale(meanAge)*0.11 + rIntEff + rIntStudy
+true_eff[geoRegion=="Asia"] = true_eff[geoRegion=="Asia"] + 0.11
+true_eff[geoRegion=="Africa"] = true_eff[geoRegion=="Africa"] + 0.07
+true_eff[taskType=="Simple"] = true_eff[taskType=="Simple"] + 0.20
+true_eff[taskModality=="Verbal"] = true_eff[taskModality=="Verbal"] + 0.10
+true_eff[taskModality=="Verbal"&taskType=="Simple"] = true_eff[taskModality=="Verbal"&taskType=="Simple"] + 0.28 
+length(levels(as.factor(idStudy)))
+length(levels(as.factor(idEff)))
+
+df = data.frame(idStudy,yearPub,geoRegion,
+                idEff,taskType,taskModality,meanAge,
+                N_Clinical=n1,M_Clinical=NA,SD_Clinical=NA,
+                N_Controls=n2,M_Controls=NA,SD_Controls=NA)
+
+for(i in 1:nrow(df)){
+  M = runif(1,0,100)
+  SD = runif(1,0.8,1.1)*M/10
+  n1 = df$N_Clinical[i]
+  g1 = rnorm(n1,M,SD)
+  n2 = df$N_Controls[i]
+  g2 = rnorm(n2,M+SD*true_eff[i],SD)
+  df$N_Clinical[i] = n1; df$M_Clinical[i] = round(mean(g1),2); df$SD_Clinical[i] = round(sd(g1),2)
+  df$N_Controls[i] = n2; df$M_Controls[i] = round(mean(g2),2); df$SD_Controls[i] = round(sd(g2),2)
+}
+
+df
+
+#######################################
+
+write.table(df,file="Exercise Simulated Multilevel Moderators Metaanalysis dataset/datasetMLMA.csv",row.names=F,sep=",")
+
+#######################################
+
+df = escalc(measure="SMD",data=df,
+            n1i=N_Clinical,m1i=M_Clinical,sd1i=SD_Clinical,
+            n2i=N_Controls,m2i=M_Controls,sd2i=SD_Controls)
+
+# df = aggregate.escalc(df,cluster=idStudy,rho=0.6)
+library(clubSandwich)
+V = impute_covariance_matrix(vi=df$vi,cluster=df$idStudy,r=0.6)
+
+fit = rma.mv(yi,V,mods=~meanAge+taskType,data=df)
+summary(fit)
+
+#######################################

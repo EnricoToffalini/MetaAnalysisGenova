@@ -1,6 +1,6 @@
 
 
-simulateStudy = function(n = 100, true_r = .20){
+simulateStudy_r = function(n = 100, true_r = .20){
   x = mvrnorm(n=n, mu=c(0,0), Sigma=matrix(c(1,true_r,true_r,1),2,2),empirical=F)
   return(cor(x[,1],x[,2]))
 }
