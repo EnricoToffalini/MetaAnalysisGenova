@@ -8,11 +8,11 @@ library(psych)
 
 #######################################
 
-set.seed(0)
+set.seed(1012)
 library(psych)
-nStudies = 200
-nEffs = 240
-weights = runif(nStudies,0.9,1.1)
+nStudies = 240
+nEffs = nStudies
+weights = runif(nStudies,0.95,1.05)
 idStudy = colSums(rmultinom(nEffs,1,prob=weights)*(1:nStudies))
 idStudy = idStudy[order(idStudy)]
 idStudy = as.numeric(as.factor(idStudy))
@@ -45,14 +45,16 @@ for(i in 1:length(taskType)){
 true_eff = 0.30 + scale(meanAge)*0.11 + rIntEff + rIntStudy
 true_eff[geoRegion=="Asia"] = true_eff[geoRegion=="Asia"] + 0.11
 true_eff[geoRegion=="Africa"] = true_eff[geoRegion=="Africa"] + 0.07
-true_eff[taskType=="Simple"] = true_eff[taskType=="Simple"] + 0.20
+true_eff[taskType=="Simple"] = true_eff[taskType=="Simple"] + 0.30
 true_eff[taskModality=="Verbal"] = true_eff[taskModality=="Verbal"] + 0.10
-true_eff[taskModality=="Verbal"&taskType=="Simple"] = true_eff[taskModality=="Verbal"&taskType=="Simple"] + 0.28 
+true_eff[taskModality=="Verbal"&taskType=="Simple"] = true_eff[taskModality=="Verbal"&taskType=="Simple"] + 0.30
+direction = sample(c("negative","positive"),size=length(true_eff),replace=T,prob=c(.3,.7))
+true_eff[direction=="negative"] = -1 * true_eff[direction=="negative"]
 length(levels(as.factor(idStudy)))
 length(levels(as.factor(idEff)))
 
 df = data.frame(idStudy,yearPub,geoRegion,
-                idEff,taskType,taskModality,meanAge,
+                idEff,direction,taskType,taskModality,meanAge,
                 N_Clinical=n1,M_Clinical=NA,SD_Clinical=NA,
                 N_Controls=n2,M_Controls=NA,SD_Controls=NA)
 
@@ -78,12 +80,16 @@ write.table(df,file="Exercise Simulated Multilevel Moderators Metaanalysis datas
 df = escalc(measure="SMD",data=df,
             n1i=N_Clinical,m1i=M_Clinical,sd1i=SD_Clinical,
             n2i=N_Controls,m2i=M_Controls,sd2i=SD_Controls)
+df$yi[df$direction=="negative"] = -1 * df$yi[df$direction=="negative"]
 
 # df = aggregate.escalc(df,cluster=idStudy,rho=0.6)
 library(clubSandwich)
 V = impute_covariance_matrix(vi=df$vi,cluster=df$idStudy,r=0.6)
 
-fit = rma.mv(yi,V,mods=~meanAge+taskType,data=df)
+fit = rma.mv(yi,V,mods=~meanAge,random=~1|idStudy/idEff,data=df)
+summary(fit)
+
+fit = rma.mv(yi,V,mods=~meanAge+taskType,random=~1|idStudy/idEff,data=df)
 summary(fit)
 
 #######################################
