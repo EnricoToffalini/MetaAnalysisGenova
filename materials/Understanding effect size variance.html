@@ -3150,8 +3150,8 @@ window.Quarto = {
 <li><p>Variance of a Fisher’s z (i.e., transformed correlation coefficient): <span class="math inline">\(Var(z) = 1/(n-3)\)</span></p></li>
 </ul>
 </section>
-<section id="intuitively-a-larger-effect-size-is-associated-with-a-smaller-variance" class="level2">
-<h2 class="anchored" data-anchor-id="intuitively-a-larger-effect-size-is-associated-with-a-smaller-variance">Intuitively, a larger effect size is associated with a smaller variance</h2>
+<section id="intuitively-a-larger-sample-is-associated-with-a-smaller-variance" class="level2">
+<h2 class="anchored" data-anchor-id="intuitively-a-larger-sample-is-associated-with-a-smaller-variance">Intuitively, a larger sample is associated with a smaller variance</h2>
 <p>Let’s do a simple Monte Carlo simulation. We set a true Cohen’s d = 0.50. In this first example, n1 = 40, n2 = 40. The study is re-simulated iteratively for 10000 times.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">0</span>)</span>
@@ -3269,19 +3269,17 @@ window.Quarto = {
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.07144863</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(observed_d)<span class="sc">^</span><span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">var</span>(observed_d)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.005104907</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">var</span>(observed_d)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 0.005104907</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>(n1 <span class="sc">+</span> n2) <span class="sc">/</span> (n1 <span class="sc">*</span> n2) <span class="sc">+</span> true_d<span class="sc">^</span><span class="dv">2</span> <span class="sc">/</span> (<span class="dv">2</span> <span class="sc">*</span> (n1 <span class="sc">+</span> n2))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>(n1 <span class="sc">+</span> n2) <span class="sc">/</span> (n1 <span class="sc">*</span> n2) <span class="sc">+</span> true_d<span class="sc">^</span><span class="dv">2</span> <span class="sc">/</span> (<span class="dv">2</span> <span class="sc">*</span> (n1 <span class="sc">+</span> n2))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.00515625</code></pre>
 </div>
 </div>
+<p>In conclusion, know that the “effect size” provided by a study is just an estimate. The larger the sample, the more precise the estimate. The “variance” of an effect size gives you information about the precision of the estimate (smaller variance is better).</p>
+<p>Knowing the variance of an effect size, you know its standard error, and thus you may compute its 95% confidence interval (forest plots are built in this way!).</p>
 </section>
 
 </main>

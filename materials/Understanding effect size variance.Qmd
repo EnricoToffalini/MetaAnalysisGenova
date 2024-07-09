@@ -25,7 +25,7 @@ Here are two formulas for the variance of common effect sizes:
 - Variance of a Fisher's z (i.e., transformed correlation coefficient): $Var(z) = 1/(n-3)$ 
 
 
-## Intuitively, a larger effect size is associated with a smaller variance
+## Intuitively, a larger sample is associated with a smaller variance
 
 Let's do a simple Monte Carlo simulation. We set a true Cohen's d = 0.50. In this first example, n1 = 40, n2 = 40. The study is re-simulated iteratively for 10000 times.
 
