@@ -1,1 +1,1 @@
-This repository contains materials for a Meta-Analysis Workshop taught at a PhD school in psychology at Disfor - University of Genova. The associated website is: https://enricotoffalini.github.io/MetaAnalysisGenova/
+This repository includes a collection of resources (links, slides, data, and R code) for the one-day seminar on ‘Meta-analysis in R’ conducted by Enrico Toffalini in July, 2024, for PhD students in Social Sciences at the University of Genova. The associated website is: https://enricotoffalini.github.io/MetaAnalysisGenova/
