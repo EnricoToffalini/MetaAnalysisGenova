@@ -1,0 +1,1 @@
+This repository contains materials for a Meta-Analysis Workshop taught at a PhD school in psychology at Disfor - University of Genova. The associated website is: https://enricotoffalini.github.io/MetaAnalysisGenova/
